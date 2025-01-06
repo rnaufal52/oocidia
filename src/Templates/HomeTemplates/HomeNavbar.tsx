@@ -1,11 +1,11 @@
 import { Container, Nav, Navbar } from "react-bootstrap"
-import { NavLink } from "react-router"
+import { NavLink } from "react-router-dom"
 
 const HomeNavbar = () => {
     return (
         <Navbar expand="lg" bg="dark" data-bs-theme="dark">
             <Container>
-                <Navbar.Brand href="#">OOCID</Navbar.Brand>
+                <Navbar.Brand href="#">OOCIDIA</Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse>
                     <Nav className="me-auto">
