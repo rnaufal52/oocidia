@@ -3,12 +3,20 @@ import { NavLink } from "react-router-dom"
 
 const HomeNavbar = () => {
     return (
-        <Navbar expand="lg" bg="dark" data-bs-theme="dark">
+        <Navbar
+            className="py-4"
+            expand="lg"
+            data-bs-theme="dark"
+            sticky="top"
+            style={{ backgroundColor: "#0E1231" }}
+        >
             <Container>
-                <Navbar.Brand href="#">OOCIDIA</Navbar.Brand>
+                <Navbar.Brand href="#" className="text-blue-300 fw-bold fs-4">
+                    OOCIDIA
+                </Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse>
-                    <Nav className="me-auto">
+                    <Nav className="me-auto gap-lg-4">
                         <NavLink className="nav-link" to="/about-us">
                             About Us
                         </NavLink>
@@ -19,7 +27,7 @@ const HomeNavbar = () => {
                             Pipeline
                         </NavLink>
                     </Nav>
-                    <Nav>
+                    <Nav className="gap-lg-4">
                         <NavLink className="nav-link" to="/news">
                             News
                         </NavLink>
