@@ -1,5 +1,5 @@
 const OurScience = () => {
-    return <div>OurScience</div>
+    return <section>OurScience</section>
 }
 
 export default OurScience
