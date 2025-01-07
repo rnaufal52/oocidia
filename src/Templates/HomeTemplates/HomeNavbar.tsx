@@ -6,9 +6,9 @@ const HomeNavbar = () => {
         <Navbar
             className="py-4"
             expand="lg"
+            bg="oxford-blue-2"
             data-bs-theme="dark"
-            sticky="top"
-            style={{ backgroundColor: "#0E1231" }}
+            fixed="top"
         >
             <Container>
                 <Navbar.Brand href="#" className="text-blue-300 fw-bold fs-4">

@@ -7,7 +7,11 @@ const HomeTemplates = () => {
     return (
         <Fragment>
             <HomeNavbar />
-            <Outlet />
+
+            <div className="main-content">
+                <Outlet />
+            </div>
+
             <Footer />
         </Fragment>
     )
