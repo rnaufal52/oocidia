@@ -2,12 +2,13 @@
 
 body
     background-image: linear-gradient(180deg, #0B0F2F 0%, #2D324A 100%)
-    background-size: cover
-    background-repeat: no-repeat
-    height: 100vh
     background-attachment: fixed
 
     color: #fff
+
+.home-navbar
+    .navbar-brand:is(:hover, .active)
+        color: vars.$blue-300
 
 .nav-link
     color: #fff
@@ -16,4 +17,4 @@ body
         color: vars.$blue-500 !important
 
 .main-content
-    margin-top: 94px
+    margin-top: vars.$navbar-height

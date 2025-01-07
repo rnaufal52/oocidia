@@ -4,16 +4,19 @@ import { NavLink } from "react-router-dom"
 const HomeNavbar = () => {
     return (
         <Navbar
-            className="py-4"
+            className="home-navbar py-4"
             expand="lg"
             bg="oxford-blue-2"
             data-bs-theme="dark"
             fixed="top"
         >
             <Container>
-                <Navbar.Brand href="#" className="text-blue-300 fw-bold fs-4">
+                <NavLink
+                    to="/"
+                    className="navbar-brand text-blue-300 fw-bold fs-4"
+                >
                     OOCIDIA
-                </Navbar.Brand>
+                </NavLink>
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse>
                     <Nav className="me-auto gap-lg-4">
