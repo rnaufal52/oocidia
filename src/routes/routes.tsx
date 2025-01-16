@@ -7,6 +7,9 @@ import News from "Pages/News"
 import OurScience from "Pages/OurScience"
 import Pipeline from "Pages/Pipeline"
 import Error from "Errors/Error"
+import StoryAndVision from "Pages/StoryAndVision"
+import ResearchAndInovation from "Pages/ResearchAndInovation"
+import DrugDevelopmentPrograms from "Pages/DrugDevelopmentPrograms"
 
 const routes = createBrowserRouter([
     {
@@ -19,24 +22,16 @@ const routes = createBrowserRouter([
                 element: <Home />
             },
             {
-                path: "about-us",
-                element: <AboutUs />
+                path: "story-and-vision",
+                element: <StoryAndVision />
             },
             {
-                path: "our-science",
-                element: <OurScience />
+                path: "research-and-inovation",
+                element: <ResearchAndInovation />
             },
             {
-                path: "pipeline",
-                element: <Pipeline />
-            },
-            {
-                path: "news",
-                element: <News />
-            },
-            {
-                path: "careers",
-                element: <Careers />
+                path: "drug-development-programs",
+                element: <DrugDevelopmentPrograms />
             }
         ]
     }

@@ -1,3 +1,4 @@
+import Icon from "Components/Icon"
 import { Container, Nav, Navbar } from "react-bootstrap"
 import { NavLink } from "react-router-dom"
 
@@ -6,9 +7,8 @@ const HomeNavbar = () => {
         <Navbar
             className="home-navbar py-4"
             expand="lg"
-            bg="oxford-blue-2"
+            bg="smoky-black"
             data-bs-theme="dark"
-            fixed="top"
         >
             <Container>
                 <NavLink
@@ -19,23 +19,27 @@ const HomeNavbar = () => {
                 </NavLink>
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse>
-                    <Nav className="me-auto gap-lg-4">
-                        <NavLink className="nav-link" to="/about-us">
-                            About Us
+                    <Nav className="ms-auto flex-column text-end">
+                        <NavLink className="nav-link" to="/">
+                            Home <Icon name="arrow-right" className="ms-2" />
                         </NavLink>
-                        <NavLink className="nav-link" to="/our-science">
-                            Our Science
+                        <NavLink className="nav-link" to="/story-and-vision">
+                            Our Story and Vision{" "}
+                            <Icon name="arrow-right" className="ms-2" />
                         </NavLink>
-                        <NavLink className="nav-link" to="/pipeline">
-                            Pipeline
+                        <NavLink
+                            className="nav-link"
+                            to="/research-and-inovation"
+                        >
+                            Research and Inovation{" "}
+                            <Icon name="arrow-right" className="ms-2" />
                         </NavLink>
-                    </Nav>
-                    <Nav className="gap-lg-4">
-                        <NavLink className="nav-link" to="/news">
-                            News
-                        </NavLink>
-                        <NavLink className="nav-link" to="/careers">
-                            Careers
+                        <NavLink
+                            className="nav-link"
+                            to="/drug-development-programs"
+                        >
+                            Drug Development Programs{" "}
+                            <Icon name="arrow-right" className="ms-2" />
                         </NavLink>
                     </Nav>
                 </Navbar.Collapse>

@@ -1,67 +1,61 @@
 import Icon from "Components/Icon"
 import { Col, Container, Row } from "react-bootstrap"
-import { NavLink } from "react-router-dom"
+import { Link } from "react-router-dom"
 
 const Footer = () => {
     return (
-        <footer className="home-footer">
-            <Container className="h-100">
+        <footer className="home-footer pb-4">
+            <Container fluid className="px-lg-5">
                 <Row
-                    lg={3}
+                    className="align-items-center justify-content-lg-between"
                     xs={1}
-                    className="h-100 align-items-center g-4 g-lg-0"
+                    lg={2}
                 >
-                    <Col className="medsos" lg={6}>
-                        <div className="d-flex gap-3 mb-2">
-                            <div>
-                                <NavLink
-                                    to="#"
-                                    className="text-light"
-                                    target="_blank"
-                                >
-                                    <Icon name="linkedin" />
-                                </NavLink>
-                            </div>
-                            <div>
-                                <NavLink
-                                    to="#"
-                                    className="text-light"
-                                    target="_blank"
-                                >
-                                    <Icon name="twitter-x" />
-                                </NavLink>
-                            </div>
-                            <div>
-                                <NavLink
-                                    to="#"
-                                    className="text-light"
-                                    target="_blank"
-                                >
-                                    <Icon name="tiktok" />
-                                </NavLink>
-                            </div>
-                        </div>
-
-                        <p>&copy; OOCIDIA, Copyrigt 2025</p>
+                    <Col className="flex-lg-grow-1">
+                        <p>&copy; OOCIDIA, Copyright 2025</p>
                     </Col>
-                    <Col lg={3}>
-                        <div className="border-start border-info border-3 px-3">
-                            <h5 className="fw-medium">Address</h5>
-                            <p>
-                                07127 Temasek Boulevard Suntec
-                                <br />
-                                Tower One
-                            </p>
-                        </div>
-                    </Col>
-                    <Col lg={3}>
-                        <div className="border-start border-info border-3 px-3">
-                            <h5 className="fw-medium">General</h5>
-                            <p>
-                                oocodia@oocodia.com
-                                <br />
-                                <span className="invisible">_</span>
-                            </p>
+                    <Col className="col-lg-auto">
+                        <div className="d-flex flex-column flex-lg-row">
+                            <div>
+                                <p className="mb-0 py-1 pe-5 pe-lg-4 border-end border-3 border-blue-500">
+                                    Get In Touch
+                                </p>
+                            </div>
+                            <div>
+                                <p className="mb-0 py-1 px-lg-4 border-end border-3 border-blue-500">
+                                    Privacy and Data
+                                </p>
+                            </div>
+                            <div>
+                                <p className="mb-0 py-1 px-lg-4 border-end border-3 border-blue-500">
+                                    Terms Of Use
+                                </p>
+                            </div>
+                            <div>
+                                <div className="mt-3 mt-lg-0 ps-lg-4 d-flex fs-5 gap-3">
+                                    <Link
+                                        to="#"
+                                        className="text-light hover-text-blue-500"
+                                        target="_blank"
+                                    >
+                                        <Icon name="linkedin" />
+                                    </Link>
+                                    <Link
+                                        to="#"
+                                        className="text-light hover-text-blue-500"
+                                        target="_blank"
+                                    >
+                                        <Icon name="twitter-x" />
+                                    </Link>
+                                    <Link
+                                        to="#"
+                                        className="text-light hover-text-blue-500"
+                                        target="_blank"
+                                    >
+                                        <Icon name="tiktok" />
+                                    </Link>
+                                </div>
+                            </div>
                         </div>
                     </Col>
                 </Row>

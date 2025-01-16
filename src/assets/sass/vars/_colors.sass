@@ -1,7 +1,8 @@
-$colors: (blue-300: #6EA8FE, blue-500: #0D6EFD, oxford-blue: #0B0F2F, oxford-blue-2: #0E1231, space-cadet: #2D324A)
+$colors: (blue-300: #6EA8FE, blue-500: #0D6EFD, oxford-blue: #0B0F2F, oxford-blue-2: #0E1231, space-cadet: #2D324A, smoky-black: #141010)
 
 $blue-300: map-get($colors, blue-300)
 $blue-500: map-get($colors, blue-500)
+$smoky-black: map-get($colors, smoky-black)
 
 // melooping variable untuk membuat style
 @each $key, $value in $colors
@@ -14,4 +15,8 @@ $blue-500: map-get($colors, blue-500)
         background-color: $value
 
     .border-#{$key}
-        border-color: $value
+        border-color: $value !important
+
+    .hover-text-#{$key}:hover
+        color: $value !important
+        transition: 300ms

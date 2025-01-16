@@ -14,8 +14,10 @@ const useContentHeight = () => {
         if (!homeNavbar || !homeFooter) return
 
         const updateHeight = () => {
+            const totalHeight = document.documentElement.clientHeight - 1
+
             const newHeight =
-                document.documentElement.clientHeight -
+                totalHeight -
                 (homeFooter.clientHeight + homeNavbar.clientHeight)
             setContentHeight(newHeight)
         }
