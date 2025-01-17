@@ -1,0 +1,25 @@
+{
+    "drugs-dev-program": [
+        {
+            "program": "OociVet Pain Relief",
+            "status": "clinical",
+            "figure": "link image",
+            "summary": "Joint Health Supplement",
+            "description": "OociVet Pain Relief is designed to alleviate acute and chronic pain in animals, focusing on improving their quality of life. The product leverages advanced pharmaceutical technologies to provide effective pain relief with minimal side effects, ensuring safety for long-term use. Currently undergoing clinical trials to validate its efficacy and safety in diverse animal species."
+        },
+        {
+            "program": "OociGuard",
+            "status": "preclinical",
+            "figure": "link image",
+            "summary": "Anti-Infective for Livestock",
+            "description": "OociGuard is an innovative anti-infective solution aimed at protecting livestock from bacterial infections. It is formulated to enhance the immune system while minimizing reliance on antibiotics, supporting healthier livestock and sustainable farming practices. Currently in preclinical development, it shows promising results in reducing infection rates and promoting animal well-being."
+        },
+        {
+            "program": "OociCalm",
+            "status": "discovery",
+            "figure": "link image",
+            "summary": "Anxiety Treatment for Pets",
+            "description": "OociCalm is a groundbreaking discovery aimed at treating anxiety in pets. This product is being developed to help pets cope with stressful situations such as separation, loud noises, or travel. Formulated with safe, pet-friendly ingredients, it promises to improve pets’ mental health and enhance their relationship with their owners. The program is in the early stages of discovery, focusing on identifying key compounds for optimal results."
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "research-achievements": [
+        {
+            "achievement": "Preventive Medicine",
+            "description": "Pioneering vaccines and treatments to reduce the occurrence of common animal diseases."
+        },
+        {
+            "achievement": "Pharmacological Advancements",
+            "description": "Innovating drug formulations with a focus on safety and efficacy."
+        },
+        {
+            "achievement": "Sustainability",
+            "description": "Incorporating eco-friendly ingredients and processes to minimize environmental impact."
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "executives": [
+      {
+        "name": "Alex Tan Wei Ming",
+        "position": "Chief Executive Officer",
+        "figure": "link image",
+        "description": "Is a visionary leader responsible for the strategic direction and development of the company. With extensive experience in the animal pharmaceutical industry and exceptional leadership skills, Alex builds strategic partnerships with stakeholders and investors to ensure the company’s long-term growth."
+      },
+      {
+        "name": "Grace Lim Jia Hui",
+        "position": "Chief Operating Officer",
+        "figure": "link image",
+        "description": "Oversees the company’s daily operations, including production, distribution, and process efficiency. With expertise in logistics and supply chain management, Grace ensures smooth operations while adhering to regulations, focusing on both efficiency and quality."
+      },
+      {
+        "name": "Ryan Lee Yong Sheng",
+        "position": "Chief Technology Officer",
+        "figure": "link image",
+        "description": "Is a technology expert leading innovation in animal drug development. With an academic background in veterinary pharmacy and solid research experience, Ryan is responsible for implementing the latest technologies in production and R&D."
+      },
+      {
+        "name": "Sophia Ng Xue Ting",
+        "position": "Chief Financial Officer",
+        "figure": "link image",
+        "description": "manages the company’s finances, focusing on sustainability and budget efficiency. With experience in handling financial operations for large companies, Sophia ensures financial stability through smart investment strategies and accurate risk analysis."
+      },
+      {
+        "name": "Ethan Wong Zi Jie",
+        "position": "Chief Marketing Officer",
+        "figure": "link image",
+        "description": "leads the company’s marketing and branding strategies, ensuring Oocidia’s products appeal to the market. With experience in pharmaceutical marketing and strong communication skills, Ethan builds robust relationships with veterinary communities and farmers to expand the company’s reach."
+      }
+    ],
+    "employees": [
+      {
+        "name": "Natalie Tan Hui Min",
+        "position": "Production Manager"
+      },
+      {
+        "name": "Darren Chua Wei Liang",
+        "position": "Quality Control Specialist"
+      },
+      {
+        "name": "Chloe Teo Yi Xuan",
+        "position": "Veterinary Pharmacist"
+      },
+      {
+        "name": "Benjamin Koh Kai En",
+        "position": "Marketing Specialist"
+      },
+      {
+        "name": "Alicia Lim Pei Yee",
+        "position": "Sales Representative"
+      },
+      {
+        "name": "Marcus Goh Jun Hao",
+        "position": "Administrative Officer"
+      },
+      {
+        "name": "Fiona Lee Xuan Yi",
+        "position": "Logistics Coordinator"
+      }
+    ]
+  }
+  

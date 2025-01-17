@@ -1,0 +1,47 @@
+$spacer: 0.5rem;
+$spacingKeys: (
+    x: (
+        "left",
+        "right"
+    ),
+    y: (
+        "top",
+        "bottom"
+    ),
+    t: (
+        "top"
+    ),
+    e: (
+        "left"
+    ),
+    b: (
+        "bottom"
+    ),
+    s: (
+        "left"
+    )
+);
+
+@for $i from 6 through 14 {
+    $space: $i * $spacer;
+
+    .m-#{$i} {
+        margin: $space;
+    }
+
+    .p-#{$i} {
+        padding: $space;
+    }
+
+    @each $orientation, $values in $spacingKeys {
+        @each $value in $values {
+            .m#{$orientation}-#{$i} {
+                margin-#{$value}: $space;
+            }
+
+            .p#{$orientation}-#{$i} {
+                padding-#{$value}: $space;
+            }
+        }
+    }
+}

@@ -10,7 +10,7 @@ const HomeNavbar = () => {
             bg="smoky-black"
             data-bs-theme="dark"
         >
-            <Container>
+            <Container fluid className="px-lg-5 align-items-start">
                 <NavLink
                     to="/"
                     className="navbar-brand text-blue-300 fw-bold fs-4"

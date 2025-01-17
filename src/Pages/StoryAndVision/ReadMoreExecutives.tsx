@@ -1,0 +1,31 @@
+import { Col, Image, Modal, Row } from "react-bootstrap"
+import employe from "assets/img/employe.png"
+
+const ReadMoreExecutives = ({
+    show,
+    handleClose,
+    data
+}: ReadMoreExecutivesI) => {
+    const { name, position, description } = data
+
+    return (
+        <Modal className="text-dark" show={show} onHide={handleClose} size="lg">
+            <Modal.Header closeButton />
+            <Modal.Body>
+                <Row xs={1} lg={2} className="g-3 text-center text-lg-start">
+                    <Col className="col-lg-auto">
+                        <Image src={employe} alt="Employe" rounded />
+                    </Col>
+                    <Col>
+                        <h3>{name}</h3>
+                        <p className="fs-sm">{position}</p>
+                        <p className="text-justify">{description}</p>
+                    </Col>
+                </Row>
+            </Modal.Body>
+            <Modal.Footer className="py-4" />
+        </Modal>
+    )
+}
+
+export default ReadMoreExecutives

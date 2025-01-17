@@ -12,7 +12,7 @@ const HomeTemplates = () => {
         <Fragment>
             <HomeNavbar />
 
-            <Container fluid className="main-content">
+            <Container className="main-content">
                 <Outlet />
             </Container>
 

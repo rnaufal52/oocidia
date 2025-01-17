@@ -1,4 +1,7 @@
+@use "../../../node_modules/bootstrap/scss/bootstrap"
 @use "./vars/vars"
+@use "./components/components"
+@use "./pages/pages"
 
 body
     background-color: vars.$smoky-black
@@ -14,3 +17,26 @@ body
 
     &.active
         color: vars.$blue-500 !important
+
+.__carousel-indicators
+    position: absolute
+    left: 50%
+    transform: translateX(-50%)
+    top: calc( 100% + 1rem )
+    z-index: 2
+
+    display: flex
+    gap: .5rem
+
+    button
+        border: 0
+        width: 16px
+        height: 16px
+        border-radius: 50%
+
+        &.active
+            background-color: vars.$blue-500
+
+@media screen and (width < 768px)
+    .footer-list>div>p
+        border: none !important
