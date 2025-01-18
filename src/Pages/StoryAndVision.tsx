@@ -96,7 +96,11 @@ const StoryAndVision = () => {
                                 key={i}
                             >
                                 <Card bg="blue-800 text-light text-center w-75 mx-auto rounded-4 overflow-hidden">
-                                    <Card.Img variant="top" src={figure} />
+                                    <Card.Img
+                                        variant="top"
+                                        src={figure}
+                                        className="executive-photo"
+                                    />
                                     <Card.Body>
                                         <Card.Title>{name}</Card.Title>
                                         <Card.Text>{position}</Card.Text>
