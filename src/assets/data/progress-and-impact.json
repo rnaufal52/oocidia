@@ -1,0 +1,19 @@
+{
+    "progress-and-impact": [
+        {
+            "year": "1",
+            "treatment": "50%",
+            "innovation": "2"
+        },
+        {
+            "year": "2",
+            "treatment": "60%",
+            "innovation": "3"
+        },
+        {
+            "year": "3",
+            "treatment": "70%",
+            "innovation": "4"
+        }
+    ]
+}
