@@ -1,12 +1,11 @@
 import { Col, Image, Modal, Row } from "react-bootstrap"
-import employe from "assets/img/employe.png"
 
 const ReadMoreExecutives = ({
     show,
     handleClose,
     data
 }: ReadMoreExecutivesI) => {
-    const { name, position, description } = data
+    const { name, position, description, figure } = data
 
     return (
         <Modal className="text-dark" show={show} onHide={handleClose} size="lg">
@@ -14,7 +13,7 @@ const ReadMoreExecutives = ({
             <Modal.Body>
                 <Row xs={1} lg={2} className="g-3 text-center text-lg-start">
                     <Col className="col-lg-auto">
-                        <Image src={employe} alt="Employe" rounded />
+                        <Image src={figure} alt="Employe" rounded />
                     </Col>
                     <Col>
                         <h3>{name}</h3>

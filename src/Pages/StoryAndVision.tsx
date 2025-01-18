@@ -6,7 +6,6 @@ import useCarouselControlClick from "Hooks/useCarouselControlClick"
 import virus from "assets/img/virus.png"
 import ReadMoreExecutives from "./StoryAndVision/ReadMoreExecutives"
 import employe from "assets/data/employe.json"
-import employeImg from "assets/img/employe.png"
 import vision from "assets/data/vision.json"
 
 const StoryAndVision = () => {
@@ -45,10 +44,10 @@ const StoryAndVision = () => {
             {/* tampilan large */}
             <Col lg={11} className="mx-auto d-none d-lg-block">
                 <Row xs={1} lg={3} className="justify-content-center g-4 m-0">
-                    {executives.map(({ name, position }, i) => (
+                    {executives.map(({ name, position, figure }, i) => (
                         <Col key={i}>
                             <Card bg="blue-800 text-light text-center rounded-4 overflow-hidden">
-                                <Card.Img variant="top" src={employeImg} />
+                                <Card.Img variant="top" src={figure} />
                                 <Card.Body>
                                     <Card.Title>{name}</Card.Title>
                                     <Card.Text>{position}</Card.Text>
@@ -85,7 +84,7 @@ const StoryAndVision = () => {
                         ))}
                     </div>
                     <div className="carousel-inner">
-                        {executives.map(({ name, position }, i) => (
+                        {executives.map(({ name, position, figure }, i) => (
                             <div
                                 className={`carousel-item ${
                                     i === 0 && "active"
@@ -93,7 +92,7 @@ const StoryAndVision = () => {
                                 key={i}
                             >
                                 <Card bg="blue-800 text-light text-center w-75 mx-auto rounded-4 overflow-hidden">
-                                    <Card.Img variant="top" src={employeImg} />
+                                    <Card.Img variant="top" src={figure} />
                                     <Card.Body>
                                         <Card.Title>{name}</Card.Title>
                                         <Card.Text>{position}</Card.Text>

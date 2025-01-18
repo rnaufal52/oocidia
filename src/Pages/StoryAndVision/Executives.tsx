@@ -1,7 +1,7 @@
 import { Fragment } from "react/jsx-runtime"
 import { Button, Card, Col } from "react-bootstrap"
 import { executives } from "assets/data/employe.json"
-import employeImg from "assets/img/employe.png"
+import employeImg from "assets/img/pexels-olly-874158.jpg"
 
 const Executives = () => {
     return (
