@@ -12,8 +12,13 @@ const ReadMoreExecutives = ({
             <Modal.Header closeButton />
             <Modal.Body>
                 <Row xs={1} lg={2} className="g-3 text-center text-lg-start">
-                    <Col className="col-lg-auto">
-                        <Image src={figure} alt="Employe" rounded />
+                    <Col className="col-lg-5">
+                        <Image
+                            src={figure}
+                            alt="Employe"
+                            rounded
+                            className="w-100"
+                        />
                     </Col>
                     <Col>
                         <h3>{name}</h3>

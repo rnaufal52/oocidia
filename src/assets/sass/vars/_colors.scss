@@ -1,0 +1,36 @@
+$colors: (
+    blue-200: #9ec5fe,
+    blue-300: #6ea8fe,
+    blue-500: #0d6efd,
+    blue-800: #052c65,
+    oxford-blue: #0b0f2f,
+    oxford-blue-2: #0e1231,
+    space-cadet: #2d324a,
+    smoky-black: #141010
+);
+
+$blue-300: map-get($colors, blue-300);
+$blue-500: map-get($colors, blue-500);
+$smoky-black: map-get($colors, smoky-black);
+
+// melooping variable untuk membuat style
+@each $key, $value in $colors {
+    // warna teks
+    .text-#{$key} {
+        color: $value;
+    }
+
+    // warna background
+    .bg-#{$key} {
+        background-color: $value;
+    }
+
+    .border-#{$key} {
+        border-color: $value !important;
+    }
+
+    .hover-text-#{$key}:hover {
+        color: $value !important;
+        transition: 300ms;
+    }
+}

@@ -47,7 +47,11 @@ const StoryAndVision = () => {
                     {executives.map(({ name, position, figure }, i) => (
                         <Col key={i}>
                             <Card bg="blue-800 text-light text-center rounded-4 overflow-hidden">
-                                <Card.Img variant="top" src={figure} />
+                                <Card.Img
+                                    variant="top"
+                                    src={figure}
+                                    className="executive-photo"
+                                />
                                 <Card.Body>
                                     <Card.Title>{name}</Card.Title>
                                     <Card.Text>{position}</Card.Text>
@@ -117,6 +121,7 @@ const StoryAndVision = () => {
                         { controllName: "next", direction: "s", icon: "right" }
                     ].map(({ controllName, direction, icon }) => (
                         <button
+                            key={controllName}
                             onClick={() =>
                                 onCarouselControlClick(controllName as any)
                             }
@@ -182,8 +187,11 @@ const StoryAndVision = () => {
                 <h2 className="text-blue-300">Vision</h2>
 
                 <ListGroup variant="flush">
-                    {visions.map((vision) => (
-                        <ListGroup.Item className="bg-smoky-black text-light mb-4">
+                    {visions.map((vision, i) => (
+                        <ListGroup.Item
+                            className="bg-smoky-black text-light mb-4"
+                            key={i}
+                        >
                             <Icon name="check-circle-fill me-3 fs-5" /> {vision}
                         </ListGroup.Item>
                     ))}

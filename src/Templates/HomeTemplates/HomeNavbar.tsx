@@ -1,14 +1,28 @@
 import Icon from "Components/Icon"
+import { MouseEventHandler, useState } from "react"
 import { Container, Nav, Navbar } from "react-bootstrap"
 import { NavLink } from "react-router-dom"
 
 const HomeNavbar = () => {
+    const [expand, setExpand] = useState(false)
+
+    const handleClick: MouseEventHandler<HTMLElement> = (e) => {
+        if (
+            e.target instanceof HTMLAnchorElement &&
+            e.target.classList.contains("nav-link")
+        ) {
+            setExpand(false)
+        }
+    }
+
     return (
         <Navbar
             className="home-navbar py-4"
             expand="lg"
             bg="smoky-black"
             data-bs-theme="dark"
+            expanded={expand}
+            onToggle={(e) => setExpand(e)}
         >
             <Container fluid className="px-lg-5 align-items-start">
                 <NavLink
@@ -17,9 +31,12 @@ const HomeNavbar = () => {
                 >
                     OOCIDIA
                 </NavLink>
-                <Navbar.Toggle aria-controls="navbarScroll" />
-                <Navbar.Collapse>
-                    <Nav className="ms-auto flex-column text-end">
+                <Navbar.Toggle aria-controls="home-navbar" />
+                <Navbar.Collapse id="home-navbar">
+                    <Nav
+                        className="ms-auto flex-column text-end"
+                        onClick={handleClick}
+                    >
                         <NavLink className="nav-link" to="/">
                             Home <Icon name="arrow-right" className="ms-2" />
                         </NavLink>

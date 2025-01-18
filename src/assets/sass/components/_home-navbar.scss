@@ -1,0 +1,9 @@
+@use "../vars/colors";
+
+.home-navbar {
+    .nav-link:hover:not(.active) {
+        color: colors.$blue-500;
+        transform: translateX(-10px);
+        transition: 300ms;
+    }
+}
