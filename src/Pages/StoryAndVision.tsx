@@ -157,7 +157,7 @@ const StoryAndVision = () => {
                             >
                                 <Card.Body>
                                     <Card.Title>{name}</Card.Title>
-                                    <Card.Text className="fs-sm text-blue-300">
+                                    <Card.Text className="fs-sm text-light-gray">
                                         {position}
                                     </Card.Text>
                                 </Card.Body>
