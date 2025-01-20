@@ -7,12 +7,13 @@ const HomeNavbar = () => {
     const [expand, setExpand] = useState(false)
 
     const handleClick: MouseEventHandler<HTMLElement> = (e) => {
-        if (
-            e.target instanceof HTMLAnchorElement &&
-            e.target.classList.contains("nav-link")
-        ) {
-            setExpand(false)
-        }
+        const links = e.currentTarget.querySelectorAll(".nav-link")
+        const target = e.target
+        if (!(target instanceof HTMLElement)) return
+
+        links.forEach((link) => {
+            if (link.contains(target)) setExpand(false)
+        })
     }
 
     return (
