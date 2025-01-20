@@ -1,47 +1,47 @@
 {
     "privacy-data": [
       {
-        "header": "1. Data We Collect",
+        "header": "Data We Collect",
         "description": "Oocidia collects personal data such as your name, contact information, job title, company name, and industry. Additionally, we collect online interaction data like IP addresses and browser types through cookies and analytics tools, as well as transaction details like payment information and purchase history.",
         "link": ""
       },
       {
-        "header": "2. How We Use Your Data",
+        "header": "How We Use Your Data",
         "description": "Your data is used to process orders, deliver products, provide customer support, and enhance our services. We also use your information for marketing communications, such as updates and promotions, and to ensure compliance with legal obligations.",
         "link": ""
       },
       {
-        "header": "3. Sharing of Data",
+        "header": "Sharing of Data",
         "description": "We share your personal data with trusted service providers, regulatory authorities, and business partners when necessary. Oocidia does not sell your personal data to any third parties.",
         "link": ""
       },
       {
-        "header": "4. How We Protect Your Data",
+        "header": "How We Protect Your Data",
         "description": "To safeguard your personal data, we use encryption, secure access protocols, and regular audits. These measures help prevent unauthorized access and ensure compliance with data protection regulations.",
         "link": ""
       },
       {
-        "header": "5. Data Retention",
+        "header": "Data Retention",
         "description": "Your personal data is retained only as long as necessary for the purposes outlined in this policy or as required by law. After that, the data is securely deleted or anonymized.",
         "link": ""
       },
       {
-        "header": "6. Your Rights",
+        "header": "Your Rights",
         "description": "You have the right to access, correct, or delete your data, as well as withdraw your consent for its use, subject to legal and contractual requirements.",
         "link": "privacy@oocidia.sg"
       },
       {
-        "header": "7. Cookies Policy",
+        "header": "Cookies Policy",
         "description": "Oocidia uses cookies to improve your browsing experience, analyze website traffic, and personalize content. You can adjust cookie preferences through your browser settings.",
         "link": ""
       },
       {
-        "header": "8. Updates to This Policy",
+        "header": "Updates to This Policy",
         "description": "We may update this policy from time to time to reflect changes in our practices or legal requirements. Updated policies will be available on our website with the revised effective date.",
         "link": ""
       },
       {
-        "header": "9. Contact Us",
+        "header": "Contact Us",
         "description": "For inquiries about this policy or your data, please reach out to us.",
         "link": "contact@oocidia.sg"
       }
