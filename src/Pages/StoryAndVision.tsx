@@ -97,7 +97,7 @@ const StoryAndVision = () => {
                             >
                                 <Card
                                     bg="blue-800"
-                                    className="text-light text-center w-75 mx-auto rounded-4 overflow-hidden"
+                                    className="text-light text-center mx-auto rounded-4 overflow-hidden"
                                 >
                                     <Card.Img
                                         variant="top"
@@ -132,7 +132,7 @@ const StoryAndVision = () => {
                             onClick={() =>
                                 onCarouselControlClick(controllName as any)
                             }
-                            className={`carousel-control-${controllName}`}
+                            className={`__carousel-control carousel-control-${controllName}`}
                             type="button"
                             data-bs-target="#executiveCarousel"
                             data-bs-slide={controllName}

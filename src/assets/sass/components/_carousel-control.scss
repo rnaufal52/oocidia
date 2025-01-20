@@ -1,0 +1,8 @@
+.carousel .__carousel-control {
+    opacity: 0;
+    transition: 300ms;
+}
+
+.carousel:hover .__carousel-control {
+    opacity: 1;
+}

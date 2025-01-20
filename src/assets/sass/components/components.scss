@@ -1,7 +1,8 @@
-@use "./_border";
-@use "./_title";
-@use "./_text";
-@use "./_spacing";
-@use "./_home-navbar";
+@use "./border";
+@use "./title";
+@use "./text";
+@use "./spacing";
+@use "./home-navbar";
 @use "./object-fit";
+@use "./carousel-control";
 @use "./table";

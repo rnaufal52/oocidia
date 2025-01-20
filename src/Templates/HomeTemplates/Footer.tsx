@@ -18,7 +18,7 @@ const Footer = () => {
                         <div className="footer-list d-flex flex-column flex-lg-row">
                             <div>
                                 <Link
-                                    to=""
+                                    to="get-in-touch"
                                     className="d-block py-1 pe-lg-4 border-none border-end border-3 border-blue-500"
                                 >
                                     Get In Touch
@@ -26,7 +26,7 @@ const Footer = () => {
                             </div>
                             <div>
                                 <Link
-                                    to=""
+                                    to="privacy-and-data"
                                     className="d-block py-1 px-lg-4 border-none border-end border-3 border-blue-500"
                                 >
                                     Privacy and Data
@@ -34,7 +34,7 @@ const Footer = () => {
                             </div>
                             <div>
                                 <Link
-                                    to=""
+                                    to="terms-of-use"
                                     className="d-block py-1 px-lg-4 border-none border-end border-3 border-blue-500"
                                 >
                                     Terms Of Use

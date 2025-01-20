@@ -144,7 +144,7 @@ const DrugDevelopmentPrograms = () => {
                                             handleShowDetail(drugDevPrograms[i])
                                         }
                                     >
-                                        <Card.Body className="w-75 mx-auto">
+                                        <Card.Body>
                                             <div className="mb-5">
                                                 <p className="fs-sm">Program</p>
                                                 <h4>{program}</h4>
@@ -190,7 +190,7 @@ const DrugDevelopmentPrograms = () => {
                             onClick={() =>
                                 onCarouselControlClick(controllName as any)
                             }
-                            className={`carousel-control-${controllName}`}
+                            className={`__carousel-control carousel-control-${controllName}`}
                             type="button"
                             data-bs-target="#drugDevProgramCarousel"
                             data-bs-slide={controllName}

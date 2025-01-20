@@ -40,7 +40,7 @@ const routes = createBrowserRouter([
                 element: <PrivacyAndData />
             },
             {
-                path: "term-of-use",
+                path: "terms-of-use",
                 element: <TermsOfUse />
             }
         ]
