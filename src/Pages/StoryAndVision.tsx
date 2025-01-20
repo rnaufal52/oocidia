@@ -3,7 +3,7 @@ import { Button, Card, Col, Image, ListGroup, Row } from "react-bootstrap"
 import TitleDivider from "Components/TitleDivider"
 import Icon from "Components/Icon"
 import useCarouselControlClick from "Hooks/useCarouselControlClick"
-import virus from "assets/img/virus.png"
+import Parasite from "assets/img/pexels-pixabay-35804.jpg"
 import ReadMoreExecutives from "./StoryAndVision/ReadMoreExecutives"
 import employe from "assets/data/employe.json"
 import vision from "assets/data/vision.json"
@@ -182,8 +182,8 @@ const StoryAndVision = () => {
                     </Col>
                     <Col className="text-center text-lg-end" lg={4}>
                         <Image
-                            src={virus}
-                            alt="Virus"
+                            src={Parasite}
+                            alt="Parasite"
                             style={{ maxWidth: "350px" }}
                         />
                     </Col>
