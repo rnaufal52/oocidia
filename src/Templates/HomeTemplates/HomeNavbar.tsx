@@ -33,29 +33,27 @@ const HomeNavbar = () => {
                 </NavLink>
                 <Navbar.Toggle aria-controls="home-navbar" />
                 <Navbar.Collapse id="home-navbar">
-                    <Nav
-                        className="ms-auto flex-column text-end"
-                        onClick={handleClick}
-                    >
+                    <Nav className="ms-auto flex-column" onClick={handleClick}>
                         <NavLink className="nav-link" to="/">
-                            Home <Icon name="arrow-right" className="ms-2" />
+                            <span>Home</span>{" "}
+                            <Icon name="arrow-right" className="ms-2" />
                         </NavLink>
                         <NavLink className="nav-link" to="/story-and-vision">
-                            Our Story and Vision{" "}
+                            <span>Our Story and Vision</span>
                             <Icon name="arrow-right" className="ms-2" />
                         </NavLink>
                         <NavLink
                             className="nav-link"
                             to="/research-and-inovation"
                         >
-                            Research and Inovation{" "}
+                            <span>Research and Inovation</span>
                             <Icon name="arrow-right" className="ms-2" />
                         </NavLink>
                         <NavLink
                             className="nav-link"
                             to="/drug-development-programs"
                         >
-                            Drug Development Programs{" "}
+                            <span>Drug Development Programs</span>
                             <Icon name="arrow-right" className="ms-2" />
                         </NavLink>
                     </Nav>

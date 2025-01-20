@@ -5,8 +5,11 @@ import dogsDoctor from "assets/img/dogs-doctor.jpg"
 import drugDevProgram from "assets/data/drugs-development-program.json"
 import Detailed from "./DrugDevProgram/Detailed"
 import { useState } from "react"
+import Icon from "Components/Icon"
+import useCarouselControlClick from "Hooks/useCarouselControlClick"
 
 const DrugDevelopmentPrograms = () => {
+    const onCarouselControlClick = useCarouselControlClick()
     const [showDetail, setShowDetail] = useState(false)
     const [detailedData, setDetailedData] = useState<Record<string, any>>({})
     const { "drugs-dev-program": drugDevPrograms } = drugDevProgram
@@ -49,7 +52,7 @@ const DrugDevelopmentPrograms = () => {
             <Col xl={10} className="mx-auto my-10 d-none d-lg-block">
                 <Table
                     borderless
-                    className="mt-8 table-text-blue-200 text-center align-middle"
+                    className="drug-dev-program-table mt-8 table-text-light text-center align-middle"
                     variant="transparent"
                     hover
                 >
@@ -65,7 +68,6 @@ const DrugDevelopmentPrograms = () => {
                             ({ program, summary, progress, status }, i) => (
                                 <tr
                                     key={i}
-                                    style={{ height: "140px" }}
                                     onClick={() =>
                                         handleShowDetail(drugDevPrograms[i])
                                     }
@@ -84,7 +86,7 @@ const DrugDevelopmentPrograms = () => {
                                         <ProgressBar
                                             label={status}
                                             now={progress}
-                                            style={{ height: "26px" }}
+                                            style={{ height: "16px" }}
                                         />
                                         <div className="d-flex justify-content-between text-light gap-3">
                                             <p className="mb-0 mt-2 fs-sm">
@@ -142,7 +144,7 @@ const DrugDevelopmentPrograms = () => {
                                             handleShowDetail(drugDevPrograms[i])
                                         }
                                     >
-                                        <Card.Body>
+                                        <Card.Body className="w-75 mx-auto">
                                             <div className="mb-5">
                                                 <p className="fs-sm">Program</p>
                                                 <h4>{program}</h4>
@@ -179,6 +181,26 @@ const DrugDevelopmentPrograms = () => {
                             )
                         )}
                     </div>
+                    {[
+                        { controllName: "prev", direction: "e", icon: "left" },
+                        { controllName: "next", direction: "s", icon: "right" }
+                    ].map(({ controllName, direction, icon }) => (
+                        <button
+                            key={controllName}
+                            onClick={() =>
+                                onCarouselControlClick(controllName as any)
+                            }
+                            className={`carousel-control-${controllName}`}
+                            type="button"
+                            data-bs-target="#drugDevProgramCarousel"
+                            data-bs-slide={controllName}
+                        >
+                            <Icon
+                                name={`arrow-${icon}-circle`}
+                                className={`fs-2 m${direction}-2`}
+                            />
+                        </button>
+                    ))}
                 </div>
             </Col>
 

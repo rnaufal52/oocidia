@@ -1,10 +1,22 @@
 @use "../vars/colors";
 
 .home-navbar {
+    .nav-link {
+        display: flex;
+        justify-content: end;
+
+        span {
+            display: block;
+            transition: 300ms;
+        }
+    }
+
     .nav-link:hover:not(.active) {
         color: colors.$blue-500;
         opacity: 1;
-        transform: translateX(-10px);
-        transition: 300ms;
+
+        span {
+            transform: translateX(-10px);
+        }
     }
 }

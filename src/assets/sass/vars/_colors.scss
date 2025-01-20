@@ -6,13 +6,18 @@ $colors: (
     oxford-blue: #0b0f2f,
     oxford-blue-2: #0e1231,
     space-cadet: #2d324a,
-    smoky-black: #141010
+    smoky-black: #141010,
+    gray-700: #495057,
+    light: #fff
 );
 
 $blue-200: map-get($colors, blue-200);
 $blue-300: map-get($colors, blue-300);
 $blue-500: map-get($colors, blue-500);
 $smoky-black: map-get($colors, smoky-black);
+$space-cadet: map-get($colors, space-cadet);
+$gray-700: map-get($colors, gray-700);
+$light: map-get($colors, light);
 
 // melooping variable untuk membuat style
 @each $key, $value in $colors {

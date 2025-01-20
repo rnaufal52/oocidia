@@ -4,6 +4,8 @@
     --bs-table-bg: transparent;
 
     tbody tr {
+        height: 100px;
+
         td {
             transition: 300ms;
         }
@@ -12,7 +14,7 @@
             cursor: pointer;
 
             td {
-                color: colors.$blue-500;
+                color: colors.$light;
             }
         }
     }
