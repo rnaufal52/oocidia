@@ -10,7 +10,7 @@ const GetInTouch = () => {
 
             <Row xs={1} lg={2} className="mt-3 justify-content-center g-3">
                 <Col lg={5} xl={4}>
-                    <Card>
+                    <Card className="bg-dark text-light">
                         <Card.Body>
                             <Card.Title>Chat to support</Card.Title>
                             <p className="my-4">Speak to our friendly team.</p>
@@ -23,7 +23,7 @@ const GetInTouch = () => {
                             </Link>
                         </Card.Body>
                     </Card>
-                    <Card className="mt-3">
+                    <Card className="mt-3 bg-dark text-light">
                         <Card.Body>
                             <Card.Title>Call us</Card.Title>
                             <p className="my-4">Mon-fry from 8 am to 5 pm</p>
