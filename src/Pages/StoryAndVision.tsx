@@ -84,7 +84,7 @@ const StoryAndVision = () => {
                                 className={i === 0 ? "active" : ""}
                                 aria-current={i === 0 ? "true" : "false"}
                                 aria-label={name}
-                            ></button>
+                            />
                         ))}
                     </div>
                     <div className="carousel-inner">
@@ -95,7 +95,10 @@ const StoryAndVision = () => {
                                 }`}
                                 key={i}
                             >
-                                <Card bg="blue-800 text-light text-center w-75 mx-auto rounded-4 overflow-hidden">
+                                <Card
+                                    bg="blue-800"
+                                    className="text-light text-center w-75 mx-auto rounded-4 overflow-hidden"
+                                >
                                     <Card.Img
                                         variant="top"
                                         src={figure}

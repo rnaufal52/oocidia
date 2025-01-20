@@ -57,8 +57,8 @@ const ResearchAndInovation = () => {
             </ListGroup>
 
             <h2 className="text-blue-200 mb-4">Research Progress & Impact</h2>
-            <Col>
-                <Table responsive variant="dark">
+            <Col xl={10} className="mx-auto">
+                <Table responsive variant="dark" className="text-center">
                     <thead>
                         <tr>
                             <th scope="col">Year</th>
@@ -68,8 +68,8 @@ const ResearchAndInovation = () => {
                     </thead>
                     <tbody>
                         {progressAndImpacts.map(
-                            ({ year, treatment, innovation }) => (
-                                <tr>
+                            ({ year, treatment, innovation }, i) => (
+                                <tr key={i}>
                                     <th scope="row">{year}</th>
                                     <td>{treatment}</td>
                                     <td>{innovation}</td>

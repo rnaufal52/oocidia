@@ -9,6 +9,7 @@ $colors: (
     smoky-black: #141010
 );
 
+$blue-200: map-get($colors, blue-200);
 $blue-300: map-get($colors, blue-300);
 $blue-500: map-get($colors, blue-500);
 $smoky-black: map-get($colors, smoky-black);
@@ -32,5 +33,14 @@ $smoky-black: map-get($colors, smoky-black);
     .hover-text-#{$key}:hover {
         color: $value !important;
         transition: 300ms;
+    }
+
+    // warna teks table
+    .table-text-#{$key} {
+        --bs-table-color: #{$value};
+
+        &:hover {
+            --bs-table-color: #{$value};
+        }
     }
 }

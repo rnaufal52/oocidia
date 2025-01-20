@@ -1,0 +1,19 @@
+@use "../vars/colors";
+
+.table-transparent {
+    --bs-table-bg: transparent;
+
+    tbody tr {
+        td {
+            transition: 300ms;
+        }
+
+        &:hover {
+            cursor: pointer;
+
+            td {
+                color: colors.$blue-500;
+            }
+        }
+    }
+}
