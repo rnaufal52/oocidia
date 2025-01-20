@@ -1,5 +1,5 @@
 import { Image } from "react-bootstrap"
-import bg from "assets/img/bg.png"
+import bg from "assets/img/hero-image.png"
 import { Link } from "react-router-dom"
 
 const Home = () => {
