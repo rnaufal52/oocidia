@@ -16,11 +16,11 @@ const PrivacyAndData = () => {
                     <ListGroup.Item
                         key={i}
                         as="li"
-                        className="d-flex mb-5 justify-content-between align-items-start bg-smoky-black border-0 border-bottom text-light fs-4"
+                        className="d-flex mb-5 justify-content-between align-items-start bg-smoky-black border-0 border-bottom text-light fs-4 fw-bold"
                     >
                         <div className="ms-2 me-auto">
-                            <div className="fw-bold">{header}</div>
-                            <p className="fs-6">
+                            <div>{header}</div>
+                            <p className="fs-6 fw-normal">
                                 {description}{" "}
                                 {link && (
                                     <Link to="#" className="text-blue-300">

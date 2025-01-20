@@ -14,10 +14,10 @@ const TermsOfUse = () => {
             <ListGroup as="ul" className="mt-4">
                 <ListGroup.Item
                     as="li"
-                    className="d-flex mb-5 justify-content-between align-items-start bg-smoky-black border-0 border-bottom text-light fs-4"
+                    className="d-flex mb-5 justify-content-between align-items-start bg-smoky-black border-0 border-bottom text-light fs-4 fw-bold"
                 >
                     <div className="ms-2 me-auto">
-                        <div className="fw-bold">Effective Date: {duedate}</div>
+                        <div>Effective Date: {duedate}</div>
                         <p className="fs-6">
                             Welcome to Oocidia. By accessing and using our
                             website, products, and services, you agree to comply
@@ -34,11 +34,11 @@ const TermsOfUse = () => {
                     <ListGroup.Item
                         key={i}
                         as="li"
-                        className="d-flex mb-5 justify-content-between align-items-start bg-smoky-black border-0 border-bottom text-light fs-4"
+                        className="d-flex mb-5 justify-content-between align-items-start bg-smoky-black border-0 border-bottom text-light fs-4 fw-bold"
                     >
                         <div className="ms-2 me-auto">
-                            <div className="fw-bold">{header}</div>
-                            <p className="fs-6">
+                            <div>{header}</div>
+                            <p className="fs-6 fw-normal">
                                 {description}{" "}
                                 {link && (
                                     <Link to="#" className="text-blue-300">
