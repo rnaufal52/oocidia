@@ -8,6 +8,14 @@ body
 
     color: #fff
 
+a
+    text-decoration: none
+    color: vars.$light
+    transition: 300ms
+
+    &:hover
+        color: vars.$blue-500
+
 .home-navbar
     .navbar-brand:is(:hover, .active)
         color: vars.$blue-300

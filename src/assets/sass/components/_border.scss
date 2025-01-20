@@ -1,7 +1,9 @@
 @use "../../../../node_modules/bootstrap/scss/bootstrap" as *;
 
 @each $key, $value in $grid-breakpoints {
-    .border-#{$key}-none {
-        border: none !important;
+    @media screen and (width >= $value) {
+        .border-#{$key}-none {
+            border: none !important;
+        }
     }
 }

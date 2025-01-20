@@ -5,6 +5,9 @@ import Error from "Errors/Error"
 import StoryAndVision from "Pages/StoryAndVision"
 import ResearchAndInovation from "Pages/ResearchAndInovation"
 import DrugDevelopmentPrograms from "Pages/DrugDevelopmentPrograms"
+import GetInTouch from "Pages/GetInTouch"
+import PrivacyAndData from "Pages/PrivacyAndData"
+import TermsOfUse from "Pages/TermsOfUse"
 
 const routes = createBrowserRouter([
     {
@@ -27,6 +30,18 @@ const routes = createBrowserRouter([
             {
                 path: "drug-development-programs",
                 element: <DrugDevelopmentPrograms />
+            },
+            {
+                path: "get-in-touch",
+                element: <GetInTouch />
+            },
+            {
+                path: "privacy-and-data",
+                element: <PrivacyAndData />
+            },
+            {
+                path: "term-of-use",
+                element: <TermsOfUse />
             }
         ]
     }

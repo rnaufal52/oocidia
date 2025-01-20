@@ -17,19 +17,28 @@ const Footer = () => {
                     <Col className="col-lg-auto text-center">
                         <div className="footer-list d-flex flex-column flex-lg-row">
                             <div>
-                                <p className="mb-0 py-1 pe-lg-4 border-end border-3 border-blue-500">
+                                <Link
+                                    to=""
+                                    className="d-block py-1 pe-lg-4 border-none border-end border-3 border-blue-500"
+                                >
                                     Get In Touch
-                                </p>
+                                </Link>
                             </div>
                             <div>
-                                <p className="mb-0 py-1 px-lg-4 border-end border-3 border-blue-500">
+                                <Link
+                                    to=""
+                                    className="d-block py-1 px-lg-4 border-none border-end border-3 border-blue-500"
+                                >
                                     Privacy and Data
-                                </p>
+                                </Link>
                             </div>
                             <div>
-                                <p className="mb-0 py-1 px-lg-4 border-end border-3 border-blue-500">
+                                <Link
+                                    to=""
+                                    className="d-block py-1 px-lg-4 border-none border-end border-3 border-blue-500"
+                                >
                                     Terms Of Use
-                                </p>
+                                </Link>
                             </div>
                             <div>
                                 <div className="mt-3 mt-lg-0 ps-lg-4 d-flex fs-5 gap-3 justify-content-center">
