@@ -1,7 +1,7 @@
 import TitleDivider from "Components/TitleDivider"
 import { Col, Image, ListGroup, Row, Table } from "react-bootstrap"
 import { Fragment } from "react/jsx-runtime"
-import air from "assets/img/air.jpg"
+import blood from "assets/img/Babesia inside red blood cells AdobeStock_300669761.jpeg"
 import Icon from "Components/Icon"
 import researchAchivement from "assets/data/research-achievment.json"
 import progressAndImpact from "assets/data/progress-and-impact.json"
@@ -31,8 +31,8 @@ const ResearchAndInovation = () => {
 
                 <Col lg={5}>
                     <Image
-                        src={air}
-                        alt="Air"
+                        src={blood}
+                        alt="blood"
                         style={{ maxHeight: "300px" }}
                         className="rounded-5 object-fit-cover w-100"
                     />

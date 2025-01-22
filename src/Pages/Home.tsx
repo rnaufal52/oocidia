@@ -13,7 +13,7 @@ const Home = () => {
                 Connected by <br className="d-lg-none" />{" "}
                 <span className="text-blue-200">Science</span>
                 <br />
-                <span className="text-blue-200">Driven</span> by action.
+                <span className="text-blue-200">Driven</span> by Action.
             </h1>
 
             <Link

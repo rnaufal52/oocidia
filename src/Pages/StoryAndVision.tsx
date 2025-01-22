@@ -3,7 +3,7 @@ import { Button, Card, Col, Image, ListGroup, Row } from "react-bootstrap"
 import TitleDivider from "Components/TitleDivider"
 import Icon from "Components/Icon"
 import useCarouselControlClick from "Hooks/useCarouselControlClick"
-import Parasite from "assets/img/pexels-pixabay-35804.jpg"
+import cell from "assets/img/T Gondii Microscopic AdobeStock_780984904.jpeg"
 import ReadMoreExecutives from "./StoryAndVision/ReadMoreExecutives"
 import employe from "assets/data/employe.json"
 import vision from "assets/data/vision.json"
@@ -29,7 +29,7 @@ const StoryAndVision = () => {
 
     return (
         <Fragment>
-            <TitleDivider>Our Story and Mission</TitleDivider>
+            <TitleDivider>Our Story and Vision</TitleDivider>
 
             <h2 className="mt-5 text-blue-200">Co-Founders</h2>
 
@@ -170,20 +170,33 @@ const StoryAndVision = () => {
             <Col lg={10} xxl={8} className="mx-auto">
                 <Row xs={1} lg={2} className="mt-10 g-4">
                     <Col lg={8}>
-                        <h2 className="text-blue-300">Story</h2>
+                        <h2 className="text-blue-200">Our Groundbreaking Work</h2>
                         <p className="text-justify">
-                            Oocidia was founded in [Year] with a mission to
-                            improve the quality of life for animals and their
-                            caretakers. As a company in its early stages, we are
-                            building a strong foundation in research and
-                            innovation to address critical challenges in
-                            veterinary health.
+                            Our innovative veterinary therapeutics will transform animal health 
+                            while safeguarding human wellbeing. By developing non-antibiotic 
+                            solutions to treat major parasitic diseases in livestock, we're 
+                            directly addressing the global crisis of antimicrobial resistance 
+                            that claims 700,000 human lives annually. Our safe, non-toxic 
+                            treatments not only protect animals but also help reduce the 80% 
+                            of medically important antibiotics currently used in the animal 
+                            sector. 
+                        </p>
+
+                        <p className="text-justify">
+                            For farmers, our solutions deliver substantial economic value - 
+                            which can help prevent the estimated US$7 billion to US$13 billion 
+                            in annual losses from just coccidiosis alone. Through our One Health 
+                            approach, we're enhancing food safety while simultaneously decreasing 
+                            disease transmission between animals and humans. By enabling farmers 
+                            to move away from antibiotics while maintaining healthy and productive 
+                            livestock, we're pioneering a sustainable future where both animal 
+                            welfare and public health thrive together. 
                         </p>
                     </Col>
                     <Col className="text-center text-lg-end" lg={4}>
                         <Image
-                            src={Parasite}
-                            alt="Parasite"
+                            src={cell}
+                            alt="cell"
                             style={{ maxWidth: "350px" }}
                         />
                     </Col>
@@ -191,7 +204,7 @@ const StoryAndVision = () => {
             </Col>
 
             <Col lg={10} xxl={8} className="mx-auto my-10">
-                <h2 className="text-blue-300">Vision</h2>
+                <h2 className="text-blue-200">Vision</h2>
 
                 <ListGroup variant="flush">
                     {visions.map((vision, i) => (

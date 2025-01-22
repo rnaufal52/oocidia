@@ -1,7 +1,7 @@
 import TitleDivider from "Components/TitleDivider"
 import { Card, Col, Image, ProgressBar, Row, Table } from "react-bootstrap"
 import { Fragment } from "react/jsx-runtime"
-import dogsDoctor from "assets/img/dogs-doctor.jpg"
+import cell from "assets/img/AdobeStock_847496013.jpeg"
 import drugDevProgram from "assets/data/drugs-development-program.json"
 import Detailed from "./DrugDevProgram/Detailed"
 import { useState } from "react"
@@ -40,8 +40,8 @@ const DrugDevelopmentPrograms = () => {
 
                 <Col lg={5}>
                     <Image
-                        src={dogsDoctor}
-                        alt="Air"
+                        src={cell}
+                        alt="Cell"
                         style={{ maxHeight: "300px" }}
                         className="rounded-5 object-fit-cover w-100"
                     />
