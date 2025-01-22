@@ -21,7 +21,7 @@ const Footer = () => {
                             <div>
                                 <Link
                                     to="get-in-touch"
-                                    className="d-block py-1 pe-lg-4 border-none border-end border-3 border-blue-500"
+                                    className="d-block py-1 pe-lg-4 border-none border-end border-3 border-blue-200"
                                 >
                                     Get In Touch
                                 </Link>
@@ -29,7 +29,7 @@ const Footer = () => {
                             <div>
                                 <Link
                                     to="privacy-and-data"
-                                    className="d-block py-1 px-lg-4 border-none border-end border-3 border-blue-500"
+                                    className="d-block py-1 px-lg-4 border-none border-end border-3 border-blue-200"
                                 >
                                     Privacy and Data
                                 </Link>
@@ -37,7 +37,7 @@ const Footer = () => {
                             <div>
                                 <Link
                                     to="terms-of-use"
-                                    className="d-block py-1 px-lg-4 border-none border-end border-3 border-blue-500"
+                                    className="d-block py-1 px-lg-4 border-none border-end border-3 border-blue-200"
                                 >
                                     Terms Of Use
                                 </Link>

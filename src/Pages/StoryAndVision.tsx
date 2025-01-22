@@ -3,10 +3,12 @@ import { Button, Card, Col, Image, ListGroup, Row } from "react-bootstrap"
 import TitleDivider from "Components/TitleDivider"
 import Icon from "Components/Icon"
 import useCarouselControlClick from "Hooks/useCarouselControlClick"
-import cell from "assets/img/T Gondii Microscopic AdobeStock_780984904.jpeg"
+import cell from "assets/img/T-Gondii-Microscopic-AdobeStock-780984904.jpeg"
 import ReadMoreExecutives from "./StoryAndVision/ReadMoreExecutives"
 import employe from "assets/data/employe.json"
 import vision from "assets/data/vision.json"
+import { Helmet } from 'react-helmet-async'
+
 
 const StoryAndVision = () => {
     const { vision: visions } = vision
@@ -28,6 +30,10 @@ const StoryAndVision = () => {
     }
 
     return (
+        <>
+        <Helmet>
+            <meta name="robots" content="noindex, nofollow" />
+        </Helmet>
         <Fragment>
             <TitleDivider>Our Story and Vision</TitleDivider>
 
@@ -225,6 +231,7 @@ const StoryAndVision = () => {
                 data={modalValue}
             />
         </Fragment>
+        </>
     )
 }
 

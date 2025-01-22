@@ -2,9 +2,15 @@ import TitleDivider from "Components/TitleDivider"
 import { Fragment } from "react"
 import { Card, Col, Row } from "react-bootstrap"
 import { Link } from "react-router-dom"
+import { Helmet } from 'react-helmet-async'
+
 
 const GetInTouch = () => {
     return (
+    <>
+        <Helmet>
+            <meta name="robots" content="noindex, nofollow" />
+        </Helmet>
         <Fragment>
             <TitleDivider>Get in touch</TitleDivider>
 
@@ -17,7 +23,7 @@ const GetInTouch = () => {
                             <Link
                                 target="_blank"
                                 to="#"
-                                className="text-majorelle-blue"
+                                className="text-blue-200"
                             >
                                 contact@oocidia.sg
                             </Link>
@@ -30,7 +36,7 @@ const GetInTouch = () => {
                             <Link
                                 target="_blank"
                                 to="#"
-                                className="text-majorelle-blue"
+                                className="text-blue-200"
                             >
                                 +65 1234 5678
                             </Link>
@@ -48,6 +54,7 @@ const GetInTouch = () => {
                 </Col>
             </Row>
         </Fragment>
+    </>
     )
 }
 

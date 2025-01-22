@@ -3,11 +3,17 @@ import { Fragment } from "react"
 import privacyData from "assets/data/privacy-data.json"
 import { ListGroup } from "react-bootstrap"
 import { Link } from "react-router-dom"
+import { Helmet } from 'react-helmet-async'
+
 
 const PrivacyAndData = () => {
     const { "privacy-data": privaciesData } = privacyData
 
     return (
+        <>
+        <Helmet>
+            <meta name="robots" content="noindex, nofollow" />
+        </Helmet>
         <Fragment>
             <TitleDivider>Privacy and Data</TitleDivider>
 
@@ -23,7 +29,7 @@ const PrivacyAndData = () => {
                             <p className="fs-6 fw-normal">
                                 {description}{" "}
                                 {link && (
-                                    <Link to="#" className="text-blue-300">
+                                    <Link to="#" className="text-blue-200">
                                         {link}
                                     </Link>
                                 )}
@@ -33,6 +39,7 @@ const PrivacyAndData = () => {
                 ))}
             </ListGroup>
         </Fragment>
+    </>
     )
 }
 

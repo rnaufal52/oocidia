@@ -1,16 +1,21 @@
 import TitleDivider from "Components/TitleDivider"
 import { Col, Image, ListGroup, Row, Table } from "react-bootstrap"
 import { Fragment } from "react/jsx-runtime"
-import blood from "assets/img/Babesia inside red blood cells AdobeStock_300669761.jpeg"
+import blood from "assets/img/Babesia-inside-red-blood-cells-AdobeStock_300669761.jpeg"
 import Icon from "Components/Icon"
 import researchAchivement from "assets/data/research-achievment.json"
 import progressAndImpact from "assets/data/progress-and-impact.json"
+import { Helmet } from 'react-helmet-async'
 
 const ResearchAndInovation = () => {
     const { "research-achievements": researchAchivements } = researchAchivement
     const { "progress-and-impact": progressAndImpacts } = progressAndImpact
 
     return (
+        <>
+        <Helmet>
+            <meta name="robots" content="noindex, nofollow" />
+        </Helmet>
         <Fragment>
             <Row xs={1} lg={2} className="mt-4 g-3">
                 <Col lg={7}>
@@ -80,6 +85,7 @@ const ResearchAndInovation = () => {
                 </Table>
             </Col>
         </Fragment>
+        </>
     )
 }
 

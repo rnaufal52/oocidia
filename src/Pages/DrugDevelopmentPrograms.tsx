@@ -7,6 +7,8 @@ import Detailed from "./DrugDevProgram/Detailed"
 import { useState } from "react"
 import Icon from "Components/Icon"
 import useCarouselControlClick from "Hooks/useCarouselControlClick"
+import { Helmet } from 'react-helmet-async'
+
 
 const DrugDevelopmentPrograms = () => {
     const onCarouselControlClick = useCarouselControlClick()
@@ -20,6 +22,10 @@ const DrugDevelopmentPrograms = () => {
     }
 
     return (
+        <>
+        <Helmet>
+            <meta name="robots" content="noindex, nofollow" />
+        </Helmet>
         <Fragment>
             <Row xs={1} lg={2} className="mt-4 g-3">
                 <Col lg={7}>
@@ -55,7 +61,7 @@ const DrugDevelopmentPrograms = () => {
                     className="drug-dev-program-table mt-8 table-text-light text-center align-middle"
                     variant="transparent"
                     hover
-                >
+                    >
                     <thead>
                         <tr className="border-bottom">
                             <th>Program</th>
@@ -67,7 +73,7 @@ const DrugDevelopmentPrograms = () => {
                         {drugDevPrograms.map(
                             ({ program, summary, progress, status }, i) => (
                                 <tr
-                                    key={i}
+                                key={i}
                                     onClick={() =>
                                         handleShowDetail(drugDevPrograms[i])
                                     }
@@ -115,17 +121,17 @@ const DrugDevelopmentPrograms = () => {
                 <div
                     id="drugDevProgramCarousel"
                     className="carousel slide drug-dev-program-carousel"
-                >
+                    >
                     <div className="__carousel-indicators">
                         {drugDevPrograms.map(({ summary }, i) => (
                             <button
-                                key={i}
-                                type="button"
-                                data-bs-target="#drugDevProgramCarousel"
-                                data-bs-slide-to={i}
-                                className={i === 0 ? "active" : ""}
-                                aria-current={i === 0 ? "true" : "false"}
-                                aria-label={summary}
+                            key={i}
+                            type="button"
+                            data-bs-target="#drugDevProgramCarousel"
+                            data-bs-slide-to={i}
+                            className={i === 0 ? "active" : ""}
+                            aria-current={i === 0 ? "true" : "false"}
+                            aria-label={summary}
                             />
                         ))}
                     </div>
@@ -186,19 +192,19 @@ const DrugDevelopmentPrograms = () => {
                         { controllName: "next", direction: "s", icon: "right" }
                     ].map(({ controllName, direction, icon }) => (
                         <button
-                            key={controllName}
-                            onClick={() =>
-                                onCarouselControlClick(controllName as any)
-                            }
-                            className={`__carousel-control carousel-control-${controllName}`}
-                            type="button"
-                            data-bs-target="#drugDevProgramCarousel"
-                            data-bs-slide={controllName}
+                        key={controllName}
+                        onClick={() =>
+                            onCarouselControlClick(controllName as any)
+                        }
+                        className={`__carousel-control carousel-control-${controllName}`}
+                        type="button"
+                        data-bs-target="#drugDevProgramCarousel"
+                        data-bs-slide={controllName}
                         >
                             <Icon
                                 name={`arrow-${icon}-circle`}
                                 className={`fs-2 m${direction}-2`}
-                            />
+                                />
                         </button>
                     ))}
                 </div>
@@ -208,8 +214,9 @@ const DrugDevelopmentPrograms = () => {
                 show={showDetail}
                 handleClose={() => setShowDetail(false)}
                 data={detailedData}
-            />
+                />
         </Fragment>
+    </>
     )
 }
 

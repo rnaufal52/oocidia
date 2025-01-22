@@ -3,11 +3,17 @@ import { Fragment } from "react"
 import { ListGroup } from "react-bootstrap"
 import termOfUse from "assets/data/termofuse.json"
 import { Link } from "react-router-dom"
+import { Helmet } from 'react-helmet-async'
+
 
 const TermsOfUse = () => {
     const { duedate, termofuse } = termOfUse
 
     return (
+        <>
+        <Helmet>
+            <meta name="robots" content="noindex, nofollow" />
+        </Helmet>
         <Fragment>
             <TitleDivider>Term of use</TitleDivider>
 
@@ -41,7 +47,7 @@ const TermsOfUse = () => {
                             <p className="fs-6 fw-normal">
                                 {description}{" "}
                                 {link && (
-                                    <Link to="#" className="text-blue-300">
+                                    <Link to="#" className="text-blue-200">
                                         {link}
                                     </Link>
                                 )}
@@ -51,6 +57,7 @@ const TermsOfUse = () => {
                 ))}
             </ListGroup>
         </Fragment>
+        </>
     )
 }
 

@@ -1,10 +1,16 @@
 import useBg from "Hooks/useBg"
 import { Link } from "react-router-dom"
+import { Helmet } from 'react-helmet-async'
 
 const Home = () => {
     useBg()
 
     return (
+        <>
+        <Helmet>
+            <meta name="robots" content="index, follow" />
+        </Helmet>
+
         <section id="home" className="text-center">
             <h1 className="fw-bold">
                 <span className="text-blue-200">Animal Health</span>,{" "}
@@ -23,6 +29,7 @@ const Home = () => {
                 Our Groundbreaking Work
             </Link>
         </section>
+        </>
     )
 }
 
