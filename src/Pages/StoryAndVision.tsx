@@ -56,7 +56,7 @@ const StoryAndVision = () => {
                                     <Card.Title>{name}</Card.Title>
                                     <Card.Text>{position}</Card.Text>
                                     <Button
-                                        className="my-3 px-5 rounded-pill"
+                                        className="my-3 px-5 rounded-pill hover-bg-blue-200"
                                         variant="outline-light"
                                         onClick={() =>
                                             handleReadMoreClick(executives[i])
@@ -108,7 +108,7 @@ const StoryAndVision = () => {
                                         <Card.Title>{name}</Card.Title>
                                         <Card.Text>{position}</Card.Text>
                                         <Button
-                                            className="my-2 px-5 rounded-pill"
+                                            className="my-2 px-5 rounded-pill hover-bg-blue-200"
                                             variant="outline-light"
                                             onClick={() =>
                                                 handleReadMoreClick(

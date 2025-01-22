@@ -24,7 +24,7 @@ $light-gray: map-get($colors, light-gray);
 
 // melooping variable untuk membuat style
 @each $key, $value in $colors {
-    .hover-button-#{$key}:hover {
+    .hover-bg-#{$key}:hover {
         background-color: $value;
     }
 

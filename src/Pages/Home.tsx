@@ -18,7 +18,7 @@ const Home = () => {
 
             <Link
                 to="/story-and-vision"
-                className="btn btn-outline-light rounded-pill hover-button-blue-200 px-5 mt-5"
+                className="btn btn-outline-light rounded-pill hover-bg-blue-200 px-5 mt-5"
             >
                 Our Groundbreaking Work
             </Link>
