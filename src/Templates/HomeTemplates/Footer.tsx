@@ -12,7 +12,10 @@ const Footer = () => {
                     lg={2}
                 >
                     <Col className="flex-lg-grow-1 text-center text-lg-start">
-                        <p>&copy; OOCIDIA, Copyright 2025</p>
+                        <p>
+                            Copyright &copy; 2025 Oocidia (Pte.) Ltd.,
+                            Singapore, and its affiliates. All rights reserved.
+                        </p>
                     </Col>
                     <Col className="col-lg-auto text-center">
                         <div className="footer-list d-flex flex-column flex-lg-row">

@@ -1,0 +1,23 @@
+@use "../vars/colors";
+
+.__carousel-indicators {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: calc(100% + 1rem);
+    z-index: 2;
+
+    display: flex;
+    gap: 0.5rem;
+
+    button {
+        border: 0;
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+
+        &.active {
+            background-color: colors.$blue-500;
+        }
+    }
+}

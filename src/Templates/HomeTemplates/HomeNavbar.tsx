@@ -2,6 +2,7 @@ import Icon from "Components/Icon"
 import { MouseEventHandler, useState } from "react"
 import { Container, Nav, Navbar } from "react-bootstrap"
 import { NavLink } from "react-router-dom"
+import logo from "assets/img/oocidia-logo.png"
 
 const HomeNavbar = () => {
     const [expand, setExpand] = useState(false)
@@ -26,11 +27,8 @@ const HomeNavbar = () => {
             onToggle={(e) => setExpand(e)}
         >
             <Container fluid className="px-lg-5 align-items-start">
-                <NavLink
-                    to="/"
-                    className="navbar-brand text-blue-300 fw-bold fs-4"
-                >
-                    OOCIDIA
+                <NavLink to="/" className="navbar-brand">
+                    <img src={logo} alt="OOCIDIA" height={80} />
                 </NavLink>
                 <Navbar.Toggle aria-controls="home-navbar" />
                 <Navbar.Collapse id="home-navbar">

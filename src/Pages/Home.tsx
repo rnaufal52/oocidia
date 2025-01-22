@@ -1,43 +1,26 @@
-import { Image } from "react-bootstrap"
-import bg from "assets/img/hero-image.png"
+import useBg from "Hooks/useBg"
 import { Link } from "react-router-dom"
 
 const Home = () => {
-    return (
-        <section className="text-center">
-            <div
-                className="d-none d-lg-block position-relative"
-                style={{ height: "150px" }}
-            >
-                <Image
-                    src={bg}
-                    fluid
-                    className="position-absolute top-0 start-50 translate-middle"
-                />
-            </div>
+    useBg()
 
+    return (
+        <section id="home" className="text-center">
             <h1 className="fw-bold">
-                <span className="text-blue-300 fade-in-bottom">Advancing</span>{" "}
-                Animal <br className="d-lg-none" /> Health,
-                <span className="text-blue-300">
-                    {" "}
-                    One <br className="d-lg-none" /> Innovation
-                </span>{" "}
-                <br className="d-none d-lg-block" /> at a{" "}
-                <br className="d-lg-none" /> Time.
+                <span className="text-blue-200">Animal Health</span>,{" "}
+                <br className="d-lg-none" /> Human Futures
+                <br />
+                Connected by <br className="d-lg-none" />{" "}
+                <span className="text-blue-200">Science</span>
+                <br />
+                <span className="text-blue-200">Driven</span> by action.
             </h1>
-            <p>
-                Oocidia is dedicated to transforming animal health through
-                cutting-edge science and sustainable solutions. Based in
-                <br className="d-none d-lg-block" />
-                Singapore, we are innovating the future of veterinary medicine.
-            </p>
 
             <Link
                 to="/story-and-vision"
-                className="btn btn-outline-light rounded-pill px-5 mt-5"
+                className="btn btn-outline-light rounded-pill hover-button-blue-200 px-5 mt-5"
             >
-                Learn More About Us
+                Our Groundbreaking Work
             </Link>
         </section>
     )

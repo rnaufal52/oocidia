@@ -24,6 +24,10 @@ $light-gray: map-get($colors, light-gray);
 
 // melooping variable untuk membuat style
 @each $key, $value in $colors {
+    .hover-button-#{$key}:hover {
+        background-color: $value;
+    }
+
     // warna teks
     .text-#{$key} {
         color: $value;
