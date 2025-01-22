@@ -13,7 +13,7 @@
     }
 
     a.nav-link:hover:not(.active) {
-        color: #fff !important;
+        color: colors.$blue-200;
         opacity: 1;
 
         span {

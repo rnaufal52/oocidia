@@ -1,4 +1,3 @@
-import Icon from "Components/Icon"
 import { Col, Container, Row } from "react-bootstrap"
 import { Link } from "react-router-dom"
 
@@ -42,31 +41,6 @@ const Footer = () => {
                                 >
                                     Terms Of Use
                                 </Link>
-                            </div>
-                            <div>
-                                <div className="mt-3 mt-lg-0 ps-lg-4 d-flex fs-5 gap-3 justify-content-center">
-                                    <Link
-                                        to="#"
-                                        className="text-light hover-text-blue-500"
-                                        target="_blank"
-                                    >
-                                        <Icon name="linkedin" />
-                                    </Link>
-                                    <Link
-                                        to="#"
-                                        className="text-light hover-text-blue-500"
-                                        target="_blank"
-                                    >
-                                        <Icon name="twitter-x" />
-                                    </Link>
-                                    <Link
-                                        to="#"
-                                        className="text-light hover-text-blue-500"
-                                        target="_blank"
-                                    >
-                                        <Icon name="tiktok" />
-                                    </Link>
-                                </div>
                             </div>
                         </div>
                     </Col>
