@@ -45,6 +45,6 @@ const routes = createBrowserRouter([
             }
         ]
     }
-])
+], { basename: "/oocidia" })
 
 export default routes
