@@ -7,7 +7,7 @@ const TitleDivider: FC<HTMLAttributes<HTMLHeadingElement>> = ({
 }) => {
     return (
         <h2
-            className={`text-blue-200 d-flex align-items-center gap-3 gap-lg-4 ${
+            className={`text-blue-200 d-flex align-items-center gap-3 gap-lg-4 animate__animated animate__fadeInLeft ${
                 className || ""
             }`}
             {...props}
