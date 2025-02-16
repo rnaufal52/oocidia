@@ -1,0 +1,41 @@
+@use "../vars/colors";
+
+.carousel-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: colors.$light; /* Change color as needed */
+    z-index: 1;
+}
+
+.home-carousel-wrapper {
+    position: relative;
+    z-index: 0;
+    height: 100vh; /* Pastikan tetap 100vh */
+    display: flex; /* Agar konten tetap diatur secara proporsional */
+    align-items: center; /* Pastikan item tetap sejajar */
+    overflow: hidden; /* Mencegah elemen keluar dari batas wrapper */
+
+    @media (min-width: 769px) {
+        top: -210px;
+    }
+
+    @media (max-width: 768px) {
+        top: 0; /* Menghindari jarak berlebih di bawah navbar */
+    }
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Warna hitam transparan */
+    z-index: 1;
+}
+
+
+

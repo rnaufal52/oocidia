@@ -20,7 +20,7 @@ const Footer = () => {
                         <div className="footer-list d-flex flex-column flex-lg-row">
                             <div>
                                 <Link
-                                    to="get-in-touch"
+                                    to="get-in-touch" state={{ resetScroll: true }}
                                     className="d-block py-1 pe-lg-4 border-none border-end border-3 border-blue-200"
                                 >
                                     Get In Touch
@@ -28,7 +28,7 @@ const Footer = () => {
                             </div>
                             <div>
                                 <Link
-                                    to="privacy-and-data"
+                                    to="privacy-and-data" state={{ resetScroll: true }}
                                     className="d-block py-1 px-lg-4 border-none border-end border-3 border-blue-200"
                                 >
                                     Privacy and Data
@@ -36,7 +36,7 @@ const Footer = () => {
                             </div>
                             <div>
                                 <Link
-                                    to="terms-of-use"
+                                    to="terms-of-use" state={{ resetScroll: true }}
                                     className="d-block py-1 px-lg-4 border-none border-end border-3 border-blue-200"
                                 >
                                     Terms Of Use

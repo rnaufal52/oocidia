@@ -1,6 +1,11 @@
 @use "../vars/colors";
 
 .home-navbar {
+    position: relative; /* Agar z-index dapat bekerja */
+    z-index: 2; /* Agar navbar tetap di atas carousel */
+    background: transparent; /* Default background transparan di desktop */
+    box-shadow: none; /* Menghapus shadow (opsional jika ada) */
+
     .nav-link {
         color: colors.$light-gray;
         display: flex;
@@ -19,5 +24,15 @@
         span {
             transform: translateX(-10px);
         }
+    }
+
+    /* Media query untuk mobile */
+    @media (max-width: 768px) {
+        background: colors.$smoky-black; /* Ganti dengan background yang diinginkan di mobile */
+    }
+
+    /* Media query untuk desktop */
+    @media (min-width: 769px) {
+        background: transparent; /* Navbar tetap transparan di desktop */
     }
 }

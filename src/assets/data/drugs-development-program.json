@@ -1,28 +1,28 @@
 {
     "drugs-dev-program": [
         {
-            "program": "OociVet Pain Relief",
+            "program": "Cryptosporidiosis",
             "status": "Clinical",
             "figure": "/oocidia/assets/pexels-pixabay-139398.jpg",
-            "summary": "Joint Health Supplement",
-            "description": "OociVet Pain Relief is designed to alleviate acute and chronic pain in animals, focusing on improving their quality of life. The product leverages advanced pharmaceutical technologies to provide effective pain relief with minimal side effects, ensuring safety for long-term use. Currently undergoing clinical trials to validate its efficacy and safety in diverse animal species.",
-            "progress": 70
+            "summary": "https://img.icons8.com/ultraviolet/40/cow.png",
+            "description": "Cryptosporidiosis remains a significant challenge in animal health, with current treatments like halofuginone often causing toxicity and failing to provide a complete cure. At Oocidia, we have developed an innovative solution—a safe, effective, single-dose therapy designed to overcome these limitations. Our advanced formulation targets Cryptosporidium with precision and potency, ensuring rapid parasite clearance while minimizing side effects. By eliminating the need for prolonged treatment regimens, our breakthrough therapy enhances animal welfare, reduces labor costs, and supports sustainable veterinary practices. Oocidia is setting a new standard in Cryptosporidiosis treatment—safer, simpler, and more effective.",
+            "progress": 30
         },
         {
-            "program": "OociGuard",
-            "status": "Preclinical",
+            "program": "Coccidiosis",
+            "status": "Clinical",
             "figure": "/oocidia/assets/pexels-cottonbro-3952236.jpg",
-            "summary": "Anti-Infective for Livestock",
-            "description": "OociGuard is an innovative anti-infective solution aimed at protecting livestock from bacterial infections. It is formulated to enhance the immune system while minimizing reliance on antibiotics, supporting healthier livestock and sustainable farming practices. Currently in preclinical development, it shows promising results in reducing infection rates and promoting animal well-being.",
-            "progress": 40
+            "summary": "https://img.icons8.com/ultraviolet/40/chicken.png",
+            "description": "Coccidiosis remains a persistent threat in animal health, with traditional treatments like ionophores and anticoccidials facing growing resistance issues. At Oocidia, we have developed a non-antibiotic solution with rapid action, providing a new approach to combat this disease effectively. Our innovative therapy targets coccidian parasites with precision and speed, eliminating the need for conventional antibiotics while reducing the risk of resistance. By offering a fast-acting and sustainable alternative, Oocidia’s solution enhances animal health, improves productivity, and supports responsible antimicrobial stewardship. Safer, faster, and resistance-free—this is the future of coccidiosis control.",
+            "progress": 30
         },
         {
-            "program": "OociCalm",
-            "status": "Discovery",
+            "program": "Babesiosis",
+            "status": "Clinical",
             "figure": "/oocidia/assets/pexels-chokniti-khongchum-1197604-3938022.jpg",
-            "summary": "Anxiety Treatment for Pets",
-            "description": "OociCalm is a groundbreaking discovery aimed at treating anxiety in pets. This product is being developed to help pets cope with stressful situations such as separation, loud noises, or travel. Formulated with safe, pet-friendly ingredients, it promises to improve pets’ mental health and enhance their relationship with their owners. The program is in the early stages of discovery, focusing on identifying key compounds for optimal results.",
-            "progress": 20
+            "summary": "https://img.icons8.com/ultraviolet/40/cat--v1.png",
+            "description": "Babesiosis treatment has long relied on imidocarb dipropionate, a drug associated with significant toxicity concerns and regulatory restrictions. At Oocidia, we have developed a next-generation therapy that offers minimal toxicity with no withdrawal period, setting a new standard in safety and efficacy. Our advanced formulation provides rapid and reliable parasite clearance without the risks of conventional treatments, ensuring better animal health and productivity. With no withdrawal period, our solution allows for seamless integration into livestock management, reducing disruptions for farmers and veterinarians. Oocidia’s breakthrough therapy delivers safe, effective, and hassle-free protection against babesiosis.",
+            "progress": 30
         }
     ]
 }

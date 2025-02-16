@@ -2,7 +2,7 @@ import Icon from "Components/Icon"
 import { MouseEventHandler, useState } from "react"
 import { Container, Nav, Navbar } from "react-bootstrap"
 import { NavLink } from "react-router-dom"
-import logo from "assets/img/oocidia-logo.png"
+import logo from "assets/img/logo_full.webp"
 
 const HomeNavbar = () => {
     const [expand, setExpand] = useState(false)

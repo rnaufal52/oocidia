@@ -2,15 +2,23 @@
     "research-achievements": [
         {
             "achievement": "Preventive Medicine",
-            "description": "Pioneering vaccines and treatments to reduce the occurrence of common animal diseases."
+            "description": "Argeting Neglected Diseases: Developing therapeutics for seven major parasitic diseases, including cryptosporidiosis, coccidiosis, babesiosis, theileriosis, toxoplasmosis, piroplasmosis, and cystoisosporiasis."
         },
         {
             "achievement": "Pharmacological Advancements",
-            "description": "Innovating drug formulations with a focus on safety and efficacy."
+            "description": "First-in-Class Therapeutics: Creating innovative compounds specifically designed for veterinary applications."
+        },
+        {
+            "achievement": "Pharmacological Advancements",
+            "description": "Broad-Spectrum Solutions: A single platform addressing multiple diseases across livestock and companion animals."
         },
         {
             "achievement": "Sustainability",
-            "description": "Incorporating eco-friendly ingredients and processes to minimize environmental impact."
+            "description": "Proven Preclinical Success: Demonstrating exceptional efficacy and safety in early studies across target diseases."
+        }, 
+        {
+            "achievement": "Sustainability",
+            "description": "Sustainable Farming Practices: Reducing reliance on antibiotics and addressing resistance issues with novel approaches."
         }
     ]
 }

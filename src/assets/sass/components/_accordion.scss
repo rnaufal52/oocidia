@@ -1,0 +1,38 @@
+// Import Bootstrap SCSS
+@use "../../../../node_modules/bootstrap/scss/bootstrap" as *;
+@use "../vars/colors";
+
+// Override Bootstrap Accordion styles directly
+.accordion {
+  background-color: colors.$smoky-black;  // Latar belakang Accordion menjadi hitam
+  color: colors.$light;  // Warna teks Accordion menjadi putih
+}
+
+// Header Accordion (non-active)
+.accordion-header {
+  background-color: colors.$blue-800;  // Latar belakang header yang tidak aktif (abu-abu kehitaman)
+  color: colors.$light;  // Warna teks header yang tidak aktif (abu-abu)
+
+  &:focus,
+  &:hover {
+    background-color: #4a4a4a;  // Latar belakang saat di-hover menjadi lebih terang
+  }
+}
+
+// Header Accordion yang aktif
+.accordion-button:not(.collapsed) {
+  background-color: colors.$smoky-black;  // Latar belakang header yang aktif menjadi hitam
+  color: colors.$blue-200;  // Warna teks header yang aktif menjadi biru
+}
+
+// Header Accordion yang collapsed (tidak aktif)
+.accordion-button.collapsed {
+  background-color: colors.$blue-800 !important;  // Pastikan latar belakangnya tetap abu-abu kehitaman
+  color: colors.$light !important;  // Pastikan warna teksnya tetap abu-abu
+}
+
+// Body Accordion
+.accordion-body {
+  background-color: colors.$smoky-black;  // Latar belakang body Accordion menjadi hitam
+  color: colors.$light;  // Warna teks body Accordion menjadi putih
+}

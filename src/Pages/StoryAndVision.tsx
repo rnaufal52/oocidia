@@ -7,6 +7,7 @@ import cell from "assets/img/T-Gondii-Microscopic-AdobeStock-780984904.jpeg"
 import ReadMoreExecutives from "./StoryAndVision/ReadMoreExecutives"
 import employe from "assets/data/employe.json"
 import vision from "assets/data/vision.json"
+import farmer from "assets/img/farmer.png";
 import { Helmet } from "react-helmet-async"
 
 const StoryAndVision = () => {
@@ -34,18 +35,65 @@ const StoryAndVision = () => {
                 <meta name="robots" content="noindex, nofollow" />
             </Helmet>
             <Fragment>
-                <TitleDivider>Our Story and Vision</TitleDivider>
+            <Row xs={1} lg={2} className="mt-4 g-6">
+                    <Col lg={7}>
+                        <TitleDivider className="mb-4">
+                            Our Story and Vision
+                        </TitleDivider>
 
+                        <p className="animate__animated animate__fadeInLeft me-4">
+                    At Oocidia, we are on a mission to revolutionize veterinary medicine by addressing some of
+                    the most neglected parasitic diseases affecting livestock and companion animals. Officially
+                    founded in 2023 by a team of world-class scientists and innovators, the work and idea
+                    behind Oocidia was actually born nearly a decade ago from a shared vision to tackle critical
+                    gaps in animal health—gaps that have long hindered progress in disease management while
+                    contributing to two of humanity's most pressing challenges: antimicrobial resistance (AMR)
+                    and the spread of zoonotic diseases.
+                </p>
+
+                <p className="animate__animated animate__fadeInLeft me-4">
+                    Our journey began as a personal project, driven by passion and expertise in veterinary drug
+                    development. Today, we are proud to lead the charge with innovative non-antibiotic
+                    therapeutics targeting seven major animal diseases that collectively affect billions of animals
+                    annually. By developing alternatives to conventional antibiotics, we're not just improving
+                    productivity in farming and reducing economic losses—we're helping combat Antimicrobial
+                    Resistance, which threatens to cause 39 million deaths globally between 2025 and 2050.
+                    Additionally, our work targets critical zoonotic diseases like cryptosporidiosis and
+                    toxoplasmosis, creating a protective barrier for both animal and human health.
+                </p>
+
+                <p className="animate__animated animate__fadeInLeft me-4">
+                    Our vision is simple yet bold, and yet practically grounded from our collective experience in
+                    drug development: to redefine veterinary medicine through innovation, delivering safe,
+                    effective, and accessible solutions that address the most pressing challenges in animal and
+                    human health. By reducing reliance on antibiotics in animal farming and preventing the
+                    spread of zoonotic diseases at their source, we're creating a healthier future for our planet
+                    and its inhabitants.
+                </p>
+                    </Col>
+
+                    <Col lg={5}>
+                        <Image
+                            src={farmer}
+                            alt="farmer"
+                            style={{ maxHeight: "300px" }}
+                            className="rounded-5 object-fit-cover w-100 animate__animated animate__fadeInRight"
+                        />
+                    </Col>
+                </Row>
                 <h2 className="mt-5 text-blue-200 animate__animated animate__fadeInUp">
-                    Co-Founders
+                    Oocidia’s Co-Founders
                 </h2>
 
                 <p className="text-justify animate__animated animate__fadeInUp">
-                    At Oocidia, we bring together a vibrant team of
-                    entrepreneurs, scientists, veterinarians, and innovators.
-                    With the guidance of our seasoned board and leadership team,
-                    we are committed to reshaping animal healthcare through bold
-                    innovation and cutting-edge research.
+                    At Oocidia, we bring together a vibrant team of seasoned scientists, innovators, and industry
+                    leaders with decades of experience in various critical aspects of drug discovery and
+                    development. Some of our co-founders have been instrumental in creating groundbreaking
+                    therapeutics such as tafenoquine (Krintafel) for malaria relapse prevention and cipargamin,
+                    the fastest-acting antimalarial ever developed. With expertise spanning prestigious
+                    institutions like Walter Reed Army Institute, Novartis, GSK, Institut Pasteur, and The Scripps
+                    Research Institute, our team is uniquely positioned to transform veterinary medicine with
+                    first-in-class solutions for parasitic diseases.
                 </p>
 
                 {/* tampilan large */}
@@ -200,32 +248,29 @@ const StoryAndVision = () => {
                                 Our Groundbreaking Work
                             </h2>
                             <p className="text-justify">
-                                Our innovative veterinary therapeutics will
-                                transform animal health while safeguarding human
-                                wellbeing. By developing non-antibiotic
-                                solutions to treat major parasitic diseases in
-                                livestock, we're directly addressing the global
-                                crisis of antimicrobial resistance that claims
-                                700,000 human lives annually. Our safe,
-                                non-toxic treatments not only protect animals
-                                but also help reduce the 80% of medically
-                                important antibiotics currently used in the
-                                animal sector.
+                                Oocidia is redefining veterinary medicine with a proprietary platform that addresses critical
+                                unmet needs across seven major parasitic diseases: cryptosporidiosis, coccidiosis,
+                                babesiosis, theileriosis, toxoplasmosis, piroplasmosis, and cystoisosporiasis. These
+                                diseases cause billions of dollars in economic losses annually while impacting animal
+                                welfare globally.
                             </p>
 
+                            <ul>
+                                <li>Innovative Solutions: A library of novel compounds designed specifically for
+                                veterinary applications.</li>
+                                <li>Broad-Spectrum Potential: A single platform addressing multiple diseases across
+                                livestock and companion animals.</li>
+                                <li>Proven Preclinical Success: Exceptional efficacy demonstrated in early studies
+                                across multiple target diseases.</li>
+                                <li>First-Mover Advantage: Targeting historically underserved markets with
+                                groundbreaking therapies.</li>
+                            </ul>
+
                             <p className="text-justify">
-                                For farmers, our solutions deliver substantial
-                                economic value - which can help prevent the
-                                estimated US$7 billion to US$13 billion in
-                                annual losses from just coccidiosis alone.
-                                Through our One Health approach, we're enhancing
-                                food safety while simultaneously decreasing
-                                disease transmission between animals and humans.
-                                By enabling farmers to move away from
-                                antibiotics while maintaining healthy and
-                                productive livestock, we're pioneering a
-                                sustainable future where both animal welfare and
-                                public health thrive together.
+                                Our work is not just about innovation—it’s about delivering real-world impact. By reducing
+                                mortality rates, improving productivity in livestock farming, and enhancing companion animal
+                                health, Oocidia is creating solutions that benefit farmers, veterinarians, pet owners, and
+                                society at large
                             </p>
                         </Col>
                         <Col className="text-center text-lg-end" lg={4}>
@@ -239,7 +284,7 @@ const StoryAndVision = () => {
                 </Col>
 
                 <Col lg={10} xxl={8} className="mx-auto my-10">
-                    <h2 className="text-blue-200">Vision</h2>
+                    <h2 className="text-blue-200">Our Vision</h2>
 
                     <ListGroup variant="flush">
                         {visions.map((vision, i) => (

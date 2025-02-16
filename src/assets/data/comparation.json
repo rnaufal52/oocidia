@@ -1,0 +1,22 @@
+{
+    "comparation": [
+        {
+            "disease": "Cryptosporidiosis",
+            "current_treatment": "halofugione",
+            "challenges": "Toxicity, Incomplete cure",
+            "oocidia_advantages":"Save Efective single-dose therapy"
+        },
+        {
+            "disease": "Coccidiosis",
+            "current_treatment": "Ionophores/Anticoccidials",
+            "challenges": "Resistance issues",
+            "oocidia_advantages":"Non-antibiotic solusition with rapid action"
+        },
+        {
+            "disease": "Babesiosis",
+            "current_treatment": "Imidocarb dipropionate",
+            "challenges": "Toxicity concerns",
+            "oocidia_advantages":"Minimal toxicity with no withdrawal priod"
+        }
+    ]
+}
