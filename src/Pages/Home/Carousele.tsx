@@ -6,11 +6,11 @@ import bg3 from "assets/img/bg-03.webp";
 const Carousele=()=>{
     return(
             <div className="home-carousel-wrapper">
-                <Carousel>
+                <Carousel className="min-vh-100">
                     <Carousel.Item>
                         <div className="overlay"></div> 
                         <img
-                            className="d-block w-100"
+                            className="d-block w-100 h-100"
                             src={bg1}
                             alt="First slide cell"
                         />
@@ -18,7 +18,6 @@ const Carousele=()=>{
                             <h1 className="fw-bold animate__animated animate__fadeInUp">
                                 <span className="text-blue-200">Animal</span> Health
                                 <br />
-                                <br className="d-lg-none" />{" "}
                                 Inspired by
                                 <span className="text-blue-200"> passion,</span>
                                 <br />
@@ -37,7 +36,7 @@ const Carousele=()=>{
                     <Carousel.Item>
                         <div className="overlay"></div> 
                         <img
-                            className="d-block w-100"
+                            className="d-block w-100 h-100"
                             src={bg2}
                             alt="Second slide cow"
                         />
@@ -45,7 +44,6 @@ const Carousele=()=>{
                             <h1 className="fw-bold animate__animated animate__fadeInUp">
                                 <span className="text-blue-200">Animal</span> Health
                                 <br />
-                                <br className="d-lg-none" />{" "}
                                 Inspired by
                                 <span className="text-blue-200"> passion,</span>
                                 <br />
@@ -64,7 +62,7 @@ const Carousele=()=>{
                     <Carousel.Item>
                         <div className="overlay"></div> 
                         <img
-                            className="d-block w-100"
+                            className="d-block w-100 h-100"
                             src={bg3}
                             alt="Third slide cats"
                         />
@@ -72,7 +70,6 @@ const Carousele=()=>{
                             <h1 className="fw-bold animate__animated animate__fadeInUp">
                                 <span className="text-blue-200">Animal</span> Health
                                 <br />
-                                <br className="d-lg-none" />{" "}
                                 Inspired by
                                 <span className="text-blue-200"> passion,</span>
                                 <br />

@@ -15,7 +15,7 @@ const Home = () => {
             <Helmet>
                 <meta name="robots" content="index, follow" />
             </Helmet>
-            <section id="GrounbreakingWork">
+            <section id="GrounbreakingWork" className="mt-10">
                 <Col lg={10} xxl={8} className="mx-auto">
                     <Row xs={1} lg={2} className="g-4">
                         <Col lg={8}>
