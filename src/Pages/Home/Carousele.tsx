@@ -10,7 +10,7 @@ const Carousele=()=>{
                     <Carousel.Item>
                         <div className="overlay"></div> 
                         <img
-                            className="d-block w-100 h-100"
+                            className="carousel-image d-block w-100 h-100"
                             src={bg1}
                             alt="First slide cell"
                         />
@@ -36,7 +36,7 @@ const Carousele=()=>{
                     <Carousel.Item>
                         <div className="overlay"></div> 
                         <img
-                            className="d-block w-100 h-100"
+                            className="carousel-image d-block w-100 h-100"
                             src={bg2}
                             alt="Second slide cow"
                         />
@@ -62,7 +62,7 @@ const Carousele=()=>{
                     <Carousel.Item>
                         <div className="overlay"></div> 
                         <img
-                            className="d-block w-100 h-100"
+                            className="carousel-image d-block w-100 h-100"
                             src={bg3}
                             alt="Third slide cats"
                         />
