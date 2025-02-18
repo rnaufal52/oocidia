@@ -23,10 +23,10 @@ const GetInTouch = () => {
                                 </p>
                                 <Link
                                     target="_blank"
-                                    to="#"
+                                    to="mailto:hello@oocidia.com"
                                     className="text-blue-200"
                                 >
-                                    contact@oocidia.sg
+                                    hello@oocidia.com
                                 </Link>
                             </Card.Body>
                         </Card>
@@ -36,13 +36,6 @@ const GetInTouch = () => {
                                 <p className="my-4">
                                     Mon-fry from 8 am to 5 pm
                                 </p>
-                                <Link
-                                    target="_blank"
-                                    to="#"
-                                    className="text-blue-200"
-                                >
-                                    +65 1234 5678
-                                </Link>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -51,13 +44,18 @@ const GetInTouch = () => {
                         xl={5}
                         className="animate__animated animate__fadeInRight"
                     >
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7986021853553!2d103.85847779999999!3d1.2954193999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da19af1089729b%3A0xfc2e3a950bc983e7!2s7%20Temasek%20Blvd%2C%20Singapura%20038987!5e0!3m2!1sid!2sid!4v1737372821827!5m2!1sid!2sid"
-                            height="340"
-                            loading="lazy"
-                            referrerPolicy="no-referrer-when-downgrade"
-                            className="w-100"
-                        />
+                        <Card className="bg-dark text-light animate__animated animate__fadeInLeft">
+                            <Card.Body>
+                                <Card.Title>Address is:</Card.Title>
+                                <p className="my-4">
+                                    Oocidia (Pte.) Ltd.
+                                    7 Temasek Boulevard
+                                    #12-07
+                                    Suntec Tower One
+                                    Singapore 038987
+                                </p>
+                            </Card.Body>
+                        </Card>
                     </Col>
                 </Row>
             </Fragment>

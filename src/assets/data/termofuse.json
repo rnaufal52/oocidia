@@ -1,65 +1,71 @@
 {
-    "duedate":"2028-05-15",
+    "duedate":"1st of February 2025",
     "termofuse":[
         {
             "header":"Acceptance of Terms",
-            "description":"By using Oocidia's website or services, you confirm that you are at least 18 years old or have received permission from a legal guardian. Continued use constitutes agreement to these Terms of Use.",
-            "link":""
+            "description":"By accessing or using the Website, you confirm that you have the legal capacity to accept these Terms. If you are using this Website on behalf of an organization, you represent and warrant that you have the authority to bind that organization to these Terms.",
+            "link":"",
+            "list_item":[]
         },
         {
             "header":"Use of Services",
-            "description":"You agree to use Oocidia's services for lawful purposes only. You must not: Engage in activities that violate any applicable laws or regulations, Use our services to distribute harmful, offensive, or unauthorized content, Attempt to disrupt the functionality of the website or its related services.",
-            "link":""
+            "description":"You may use the Website solely for lawful purposes and in accordance with these Terms. You agree not to:",
+            "link":"",
+            "list_item":["Use the Website in any way that violates applicable laws or regulations.","Attempt to gain unauthorized access to any part of the Website, its servers, or related systems.","Engage in activities that disrupt or interfere with the functionality or security of the Website."]
         },
         {
             "header":"Intellectual Property",
-            "description":"All content on the Oocidia website, including text, graphics, logos, and trademarks, is the property of Oocidia or its licensors. You may not copy, modify, distribute, or reproduce any materials without prior written consent",
-            "link":""
+            "description":"All content, trademarks, logos, images, and materials on this Website are owned by or licensed to Oocidia (Pte.) Ltd. (“Oocidia”) and are protected under copyright and intellectual property laws. You may not reproduce, modify, distribute, display, or otherwise use any content from this Website without prior written consent from [Your Company Name].",
+            "link":"",
+            "list_item":[]
         },
         {
-            "header":"User Accounts",
-            "description":"If you create an account, you are responsible for maintaining the confidentiality of your login credentials. Oocidia is not liable for unauthorized access or activity on your account due to negligence.",
-            "link":""
-        },
-        {
-            "header":"Product and Service Availability",
-            "description":"Oocidia reserves the right to modify, suspend, or discontinue any product or service without prior notice. Prices and availability are subject to change",
-            "link":""
+            "header":"Disclaimer",
+            "description":"The content provided on this Website is for informational purposes only and does not constitute medical, legal, or professional advice. While we strive for accuracy, we do not guarantee that any information is complete, accurate, or up-to-date. Use of any information on this Website is at your own risk.",
+            "link":"",
+            "list_item":[]
         },
         {
             "header":"Limitation of Liability",
-            "description":"Oocidia is not liable for any direct, indirect, incidental, or consequential damages arising from the use of our services, including but not limited to loss of data, revenue, or profits.",
-            "link":""
+            "description":"To the fullest extent permitted by law:",
+            "link":"",
+            "list_item":["Oocidia shall not be liable for any direct, indirect, incidental, consequential, or punitive damages arising from your use of or inability to use the Website.","The Website is provided 'as is' without warranties of any kind, whether express or implied."]
         },
         {
-            "header":"Privacy",
-            "description":"Your use of our services is subject to our Privacy Policy, which explains how we collect, use, and protect your data. By using our services, you consent to the collection and use of your information as outlined in the Privacy Policy.",
-            "link":""
+            "header":"Privacy and Policy",
+            "description":"Our collection and use of personal data are governed by our Privacy Policy, which complies with Singapore’s Personal Data Protection Act (PDPA). Please review our Privacy Policy for more details. If you have any questions or concerns, you may also email Oocidia’s Data Protection Officer at dpo.sg@oocidia.com.",
+            "link":"",
+            "list_item":[]
         },
         {
             "header":"Third-Party Links",
-            "description":"Our website may contain links to third-party websites or services. Oocidia is not responsible for the content, policies, or practices of these external sites. Accessing them is at your own risk.",
-            "link":""
+            "description":"The Website may contain links to third-party websites. These links are provided for convenience only and do not imply endorsement by Oocidia. We are not responsible for the content or practices of third-party websites.",
+            "link":"",
+            "list_item":[]
         },
         {
             "header":"Termination",
-            "description":"Oocidia reserves the right to terminate or restrict your access to our services at any time, with or without notice, for any violation of these Terms of Use or for other lawful reasons.",
-            "link":""
+            "description":"We reserve the right to terminate your access to the Website at our sole discretion without notice if we believe you have violated these Terms.",
+            "link":"",
+            "list_item":[]
         },
         {
             "header":"Governing Law",
-            "description":"These Terms of Use are governed by the laws of Singapore. Any disputes arising under or in connection with these terms shall be resolved exclusively in the courts of Singapore.",
-            "link":""
+            "description":"These Terms shall be governed by and construed in accordance with the laws of Singapore. Any disputes arising out of or related to these Terms shall be subject to the exclusive jurisdiction of Singapore courts.",
+            "link":"",
+            "list_item":[]
         },
         {
-            "header":"Updates to Terms",
-            "description":"Oocidia may update these Terms of Use periodically. The revised terms will be posted on our website with the updated effective date. Continued use of the services after such updates constitutes acceptance of the revised terms.",
-            "link":""
+            "header":"Changes to Terms",
+            "description":"We may update these Terms from time to time without prior notice. Your continued use of the Website after changes are made constitutes acceptance of those changes.",
+            "link":"",
+            "list_item":[]
         },
         {
             "header":"Contact Us",
-            "description":"For inquiries about this policy or your data, please reach out to us at:",
-            "link":"contact@oocidia.sg"
+            "description":"If you have any questions about these Terms, please contact us at :",
+            "link":"webmaster@oocidia.com",
+            "list_item":[]
         }
     ]
 }

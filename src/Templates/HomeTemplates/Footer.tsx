@@ -31,7 +31,7 @@ const Footer = () => {
                                     to="privacy-and-data" state={{ resetScroll: true }}
                                     className="d-block py-1 px-lg-4 border-none border-end border-3 border-blue-200"
                                 >
-                                    Privacy and Data
+                                    Privacy Notice
                                 </Link>
                             </div>
                             <div>

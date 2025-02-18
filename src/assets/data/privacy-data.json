@@ -1,49 +1,82 @@
 {
+    "duedate":"Monday, February 17, 2025",
     "privacy-data": [
       {
-        "header": "Data We Collect",
-        "description": "Oocidia collects personal data such as your name, contact information, job title, company name, and industry. Additionally, we collect online interaction data like IP addresses and browser types through cookies and analytics tools, as well as transaction details like payment information and purchase history.",
-        "link": ""
+        "header": "Personal Data We Collect",
+        "description": "We may collect the following types of personal data from you:",
+        "link": "",
+        "list_item":["Identity Information: Name and/or other information to enable us to identify you where applicable or necessary.","Contact Information: Address, email address, telephone number. Professional Information: Job title, company name.","Technical Information: IP address, browser type, and other online identifiers collected via cookies or similar technologies.","Other Information: Any additional personal data you voluntarily provide to us."],
+        "end_text":""
       },
       {
-        "header": "How We Use Your Data",
-        "description": "Your data is used to process orders, deliver products, provide customer support, and enhance our services. We also use your information for marketing communications, such as updates and promotions, and to ensure compliance with legal obligations.",
-        "link": ""
+        "header": "How We Collect Your Personal Data",
+        "description": "We collect personal data in the following ways:",
+        "link": "",
+        "list_item":["When you provide it directly to us (e.g., through contact forms or email inquiries).","Automatically through your use of our Website (e.g., via cookies or analytics tools).","From third parties authorized by you to share your personal data with us."],
+        "end_text":""
       },
       {
-        "header": "Sharing of Data",
-        "description": "We share your personal data with trusted service providers, regulatory authorities, and business partners when necessary. Oocidia does not sell your personal data to any third parties.",
-        "link": ""
+        "header": "Purpose of Collection, Use, and Disclosure",
+        "description": "We collect, use, and disclose your personal data for the following purposes:",
+        "link": "",
+        "list_item":["To respond to your inquiries or requests.","To provide information about our services or products.","To improve our Website’s functionality and user experience.","To comply with legal obligations under applicable laws and regulations."],
+        "end_text":"We will only use your personal data for these purposes or any other purposes that you have consented to or that are permitted under the PDPA."
       },
       {
-        "header": "How We Protect Your Data",
-        "description": "To safeguard your personal data, we use encryption, secure access protocols, and regular audits. These measures help prevent unauthorized access and ensure compliance with data protection regulations.",
-        "link": ""
+        "header": "Disclosure of Personal Data",
+        "description": "We may disclose your personal data to:",
+        "link": "",
+        "list_item":["Our employees and authorized third-party service providers who need access to perform their duties.","Regulatory authorities or law enforcement agencies where required by law.","Other third parties with your consent or as permitted under the PDPA."],
+        "end_text":"We ensure that all third parties handling your personal data are bound by confidentiality obligations and comply with applicable data protection laws."
       },
       {
-        "header": "Data Retention",
-        "description": "Your personal data is retained only as long as necessary for the purposes outlined in this policy or as required by law. After that, the data is securely deleted or anonymized.",
-        "link": ""
+        "header": "Retention of Personal Data",
+        "description": "We retain your personal data only as long as necessary for the purposes outlined above or as required by law. Once it is no longer needed, we will securely delete or anonymize your personal data.",
+        "link": "",
+        "list_item":[],
+        "end_text":""
+      },
+      {
+        "header": "Protection of Personal Data",
+        "description": "We implement reasonable security measures to protect your personal data from unauthorized access, collection, use, disclosure, copying, modification, disposal, or similar risks. These measures include:",
+        "link": "privacy@oocidia.sg",
+        "list_item":["Administrative safeguards such as staff training on PDPA compliance.","Technical safeguards such as encryption and up-to-date antivirus software.","Physical safeguards such as restricted access to work areas."],
+        "end_text":""
       },
       {
         "header": "Your Rights",
-        "description": "You have the right to access, correct, or delete your data, as well as withdraw your consent for its use, subject to legal and contractual requirements.",
-        "link": "privacy@oocidia.sg"
+        "description": "Under the PDPA, you have the right to:",
+        "link": "",
+        "list_item":["Access your personal data held by us.","Correct inaccuracies in your personal data.","Withdraw consent for the collection, use, or disclosure of your personal data at any time by contacting us."],
+        "end_text":"Please note that withdrawing consent may affect our ability to provide certain services to you."
       },
       {
-        "header": "Cookies Policy",
-        "description": "Oocidia uses cookies to improve your browsing experience, analyze website traffic, and personalize content. You can adjust cookie preferences through your browser settings.",
-        "link": ""
+        "header": "Use of Cookies",
+        "description": "Our Website uses cookies and similar technologies to enhance user experience and analyze website traffic. By using our Website, you consent to our use of cookies in accordance with our Cookie Policy. You can manage cookie preferences through your browser settings.",
+        "link": "",
+        "list_item":[],
+        "end_text":""
       },
       {
-        "header": "Updates to This Policy",
-        "description": "We may update this policy from time to time to reflect changes in our practices or legal requirements. Updated policies will be available on our website with the revised effective date.",
-        "link": ""
+        "header": "Cross-Border Data Transfers",
+        "description": "If we transfer your personal data outside Singapore, we will ensure that the recipient provides a standard of protection comparable to that under the PDPA unless exempted by applicable laws.",
+        "link": "",
+        "list_item":[],
+        "end_text":""
+      },
+      {
+        "header": "Updates to this Privacy Notice",
+        "description": "We may update this Privacy Notice from time to time to reflect changes in legal requirements or our business practices. The updated notice will be posted on our Website with the effective date indicated at the top.",
+        "link": "",
+        "list_item":[],
+        "end_text":""
       },
       {
         "header": "Contact Us",
-        "description": "For inquiries about this policy or your data, please reach out to us.",
-        "link": "contact@oocidia.sg"
+        "description": "If you have any questions about this Privacy Notice or wish to exercise your rights under the PDPA, please contact us at",
+        "link": "dpo@oocidia.com. ",
+        "list_item":[],
+        "end_text":"This Privacy Notice ensures compliance with Singapore’s PDPA while providing transparency about how Oocidia handles personal data. It also includes provisions for cross-border transfers and cookie usage—important considerations for online businesses operating globally."
       }
     ]
   }
