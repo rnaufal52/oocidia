@@ -1,5 +1,5 @@
 import { useState, Fragment } from "react"
-import { Button, Card, Col, Image, ListGroup, Row } from "react-bootstrap"
+import { Button, Card, Col, Image, Row } from "react-bootstrap"
 import TitleDivider from "Components/TitleDivider"
 import Icon from "Components/Icon"
 import useCarouselControlClick from "Hooks/useCarouselControlClick"
@@ -12,6 +12,7 @@ import { Helmet } from "react-helmet-async"
 const StoryAndVision = () => {
     const [show, setShow] = useState(false)
     const [modalValue, setModalValue] = useState<StoryAndVision.ModalValueI>({
+        call_name: "",
         name: "",
         position: "",
         figure: "",
