@@ -5,7 +5,7 @@ const ReadMoreExecutives = ({
     handleClose,
     data
 }: ReadMoreExecutivesI) => {
-    const { name, position, description, figure } = data
+    const { call_name, name, position, description, figure } = data
 
     return (
         <Modal className="text-dark" show={show} onHide={handleClose} size="lg">
@@ -21,7 +21,7 @@ const ReadMoreExecutives = ({
                         />
                     </Col>
                     <Col>
-                        <h3>{name}</h3>
+                        <h3>{call_name?.trim() ? call_name : name}</h3>
                         <p className="fs-sm">{position}</p>
                         <p className="text-justify">{description}</p>
                     </Col>

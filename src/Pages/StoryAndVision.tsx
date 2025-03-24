@@ -3,15 +3,13 @@ import { Button, Card, Col, Image, ListGroup, Row } from "react-bootstrap"
 import TitleDivider from "Components/TitleDivider"
 import Icon from "Components/Icon"
 import useCarouselControlClick from "Hooks/useCarouselControlClick"
-import cell from "assets/img/T-Gondii-Microscopic-AdobeStock-780984904.jpeg"
 import ReadMoreExecutives from "./StoryAndVision/ReadMoreExecutives"
 import employe from "assets/data/employe.json"
-import vision from "assets/data/vision.json"
-import farmer from "assets/img/farmer.png";
+import our_vision from "assets/img/our-vision.png"
+import farm from "assets/img/farm.png";
 import { Helmet } from "react-helmet-async"
 
 const StoryAndVision = () => {
-    const { vision: visions } = vision
     const [show, setShow] = useState(false)
     const [modalValue, setModalValue] = useState<StoryAndVision.ModalValueI>({
         name: "",
@@ -74,9 +72,9 @@ const StoryAndVision = () => {
 
                     <Col lg={5}>
                         <Image
-                            src={farmer}
-                            alt="farmer"
-                            style={{ maxHeight: "300px" }}
+                            src={farm}
+                            alt="farm"
+                            style={{ maxHeight: "500px" }}
                             className="rounded-5 object-fit-cover w-100 animate__animated animate__fadeInRight"
                         />
                     </Col>
@@ -226,7 +224,7 @@ const StoryAndVision = () => {
                         {employees.map(({ name, position }, i) => (
                             <Col key={i}>
                                 <Card
-                                    className="text-center text-light rounded-3"
+                                    className="text-center text-light rounded-3 h-100 d-flex flex-column"
                                     bg="blue-800"
                                 >
                                     <Card.Body>
@@ -241,63 +239,15 @@ const StoryAndVision = () => {
                     </Row>
                 </Col>
 
-                <Col lg={10} xxl={8} className="mx-auto">
-                    <Row xs={1} lg={2} className="mt-10 g-4">
-                        <Col lg={8}>
-                            <h2 className="text-blue-200">
-                                Our Groundbreaking Work
-                            </h2>
-                            <p className="text-justify">
-                                Oocidia is redefining veterinary medicine with a proprietary platform that addresses critical
-                                unmet needs across seven major parasitic diseases: cryptosporidiosis, coccidiosis,
-                                babesiosis, theileriosis, toxoplasmosis, piroplasmosis, and cystoisosporiasis. These
-                                diseases cause billions of dollars in economic losses annually while impacting animal
-                                welfare globally.
-                            </p>
-
-                            <ul>
-                                <li>Innovative Solutions: A library of novel compounds designed specifically for
-                                veterinary applications.</li>
-                                <li>Broad-Spectrum Potential: A single platform addressing multiple diseases across
-                                livestock and companion animals.</li>
-                                <li>Proven Preclinical Success: Exceptional efficacy demonstrated in early studies
-                                across multiple target diseases.</li>
-                                <li>First-Mover Advantage: Targeting historically underserved markets with
-                                groundbreaking therapies.</li>
-                            </ul>
-
-                            <p className="text-justify">
-                                Our work is not just about innovation—it’s about delivering real-world impact. By reducing
-                                mortality rates, improving productivity in livestock farming, and enhancing companion animal
-                                health, Oocidia is creating solutions that benefit farmers, veterinarians, pet owners, and
-                                society at large
-                            </p>
-                        </Col>
-                        <Col className="text-center text-lg-end" lg={4}>
-                            <Image
-                                src={cell}
-                                alt="cell"
-                                style={{ maxWidth: "350px" }}
-                            />
-                        </Col>
-                    </Row>
-                </Col>
-
                 <Col lg={10} xxl={8} className="mx-auto my-10">
-                    <h2 className="text-blue-200">Our Vision</h2>
+                    <h2 className="text-blue-200 mb-10">Our Vision</h2>
 
-                    <ListGroup variant="flush">
-                        {visions.map((vision, i) => (
-                            <ListGroup.Item
-                                className="bg-smoky-black text-light mb-4"
-                                key={i}
-                            >
-                                <Icon name="check-circle-fill me-3 fs-5" />{" "}
-                                {vision}
-                            </ListGroup.Item>
-                        ))}
-                        <ListGroup.Item className="bg-smoky-black" />
-                    </ListGroup>
+                    <Image
+                            src={our_vision}
+                            alt="our_vision"
+                            className="w-100 h-100"
+                            style={{ objectFit: "cover" }}
+                        />
                 </Col>
 
                 <ReadMoreExecutives

@@ -2,13 +2,11 @@ import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
 const ScrollToTop = () => {
-    const location = useLocation();
+    const { pathname } = useLocation();
 
     useEffect(() => {
-        if (location.state?.resetScroll) {
-            window.scrollTo(0, 0);
-        }
-    }, [location]);
+        window.scrollTo(0, 0);
+    }, [pathname]); // Gunakan pathname sebagai dependency agar selalu mereset saat route berubah
 
     return null;
 };

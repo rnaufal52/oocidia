@@ -1,30 +1,35 @@
 {
   "executives": [
     {
+      "call_name":"",
       "name": "Prof. Bruce Russell",
       "position": "Chief Executive Officer",
       "figure": "/oocidia/assets/pexels-olly-874158.jpg",
       "description": "Bruce Russell, co-founder and CEO of Oocidia, is a global authority in parasitic diseases with over 20 years of experience in drug development and applied research. During his tenure with the U.S. Walter Reed Army Institute and GSK, he played a pivotal role in developing tafenoquine (Krintafel), the first FDA-approved anti-relapse malaria drug in over 60 years. His expertise has led various governments to seek his counsel during disease outbreaks, recognizing his deep understanding of parasitic diseases and their management. Bruce has pioneered groundbreaking research in parasite biology and drug development, establishing advanced screening platforms and methodologies that are now instrumental to Oocidia's drug discovery process. His expertise in apicomplexan parasites, combined with his track record of successful drug commercialization and advisory experience with government bodies, positions him uniquely to lead Oocidia's mission of transforming veterinary medicine through innovative antiparasitic treatments."
     },
     {
+      "call_name":"",
       "name": "Dr. Bryan Yeung",
       "position": "Chief Medicinal Chemist",
       "figure": "/oocidia/assets/pexels-moose-photos-170195-1036623.jpg",
       "description": "Bryan Yeung, co-founder and Chief Medicinal Chemist of Oocidia, brings over 25 years of expertise in drug discovery and development. As former Associate Director at Novartis, he led groundbreaking research that resulted in the development of several breakthrough compounds. Bryan's extensive experience in medicinal chemistry spans roles at prestigious institutions including The Scripps Research Institute and Exelixis, where he successfully advanced multiple compounds from discovery to clinical development. His proven track record in building and managing international research teams, coupled with his deep expertise in antiparasitic drug development, positions him ideally to lead Oocidia's medicinal chemistry efforts in developing innovative veterinary therapeutics."
     },
     {
+      "call_name":"",
       "name": "Prof. Pablo Bifani",
       "position": "Chief Molecular Biologist",
       "figure": "/oocidia/assets/pexels-linkedin-2182970.jpg",
       "description": "To be expanded."
     },
     {
-      "name": "Dr. Remy Muhsin",
+      "call_name":"Rémy",
+      "name": "Dr. M-Rémy Muhsin",
       "position": "Chief Cell Biologist",
       "figure": "/oocidia/assets/pexels-lii-chun-2055475500-30216629.jpg",
       "description": "To be expanded."
     },
     {
+      "call_name":"",
       "name": "Eli Oliveiro",
       "position": "Managing Director",
       "figure": "/oocidia/assets/pexels-jeffreyreed-769733.jpg",
@@ -33,32 +38,19 @@
   ],
   "employees": [
     {
-      "name": "Natalie Tan Hui Min",
-      "position": "Production Manager"
+      "call_name":"",
+      "name": "Ryan Fernandez",
+      "position": "Chief Administrative and Operating Officer"
     },
     {
-      "name": "Darren Chua Wei Liang",
-      "position": "Quality Control Specialist"
+      "call_name":"",
+      "name": "Denti Tantri ",
+      "position": "Manager, Business Support Team and Country Manager, Indonesia"
     },
     {
-      "name": "Chloe Teo Yi Xuan",
-      "position": "Veterinary Pharmacist"
-    },
-    {
-      "name": "Benjamin Koh Kai En",
-      "position": "Marketing Specialist"
-    },
-    {
-      "name": "Alicia Lim Pei Yee",
-      "position": "Sales Representative"
-    },
-    {
-      "name": "Marcus Goh Jun Hao",
-      "position": "Administrative Officer"
-    },
-    {
-      "name": "Fiona Lee Xuan Yi",
-      "position": "Logistics Coordinator"
+      "call_name":"",
+      "name": "Dr Noi Suwanarusk",
+      "position": "Laboratory Manager"
     }
   ]
 }

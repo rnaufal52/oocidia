@@ -6,7 +6,7 @@ import bg3 from "assets/img/bg-03.webp";
 const Carousele=()=>{
     return(
             <div className="home-carousel-wrapper">
-                <Carousel className="min-vh-100">
+                <Carousel>
                     <Carousel.Item>
                         <div className="overlay"></div> 
                         <img

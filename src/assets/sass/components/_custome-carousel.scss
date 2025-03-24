@@ -6,28 +6,26 @@
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    color: colors.$light; /* Change color as needed */
+    color: colors.$light; /* Sesuaikan warna */
     z-index: 1;
 }
 
 .home-carousel-wrapper {
     position: relative;
     z-index: 0;
-    min-height: 100vh; // Gunakan min-height untuk memastikan tetap full screen
+    min-height: calc(100vh - 210px); /* Sesuaikan dengan tinggi viewport dikurangi navbar */
     display: flex;
     align-items: center;
     overflow: hidden;
-
-    @media (min-width: 769px) {
-        top: -210px;
-    }
-
-    @media (max-width: 768px) {
-        top: 0; // Pastikan tetap 100vh di mobile
-    }
 }
 
+.carousel-image {
+    width: 100vw !important;
+    height: calc(100vh - 210px) !important; /* Sama seperti wrapper */
+    object-fit: cover !important;
+}
 
+/* Overlay untuk efek gelap di carousel */
 .overlay {
     position: absolute;
     top: 0;
@@ -38,10 +36,21 @@
     z-index: 1;
 }
 
-.carousel-image {
-    width: 100vw !important;
-    height: 100vh !important;
-    object-fit: cover !important;
+// .carousel-indicators {
+//     position: absolute;
+//     bottom: 20px; /* Sesuaikan agar tetap terlihat */
+//     left: 50%;
+//     transform: translateX(-50%);
+//     z-index: 2; /* Pastikan di atas overlay */
+// }
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .home-carousel-wrapper {
+        min-height: 100vh; /* Full height tanpa dikurangi navbar */
+    }
+
+    .carousel-image {
+        height: 100vh !important;
+    }
 }
-
-

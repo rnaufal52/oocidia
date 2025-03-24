@@ -1,10 +1,19 @@
 @use "../vars/colors";
 
 .home-navbar {
-    position: relative; /* Agar z-index dapat bekerja */
-    z-index: 2; /* Agar navbar tetap di atas carousel */
-    background: transparent; /* Default background transparan di desktop */
-    box-shadow: none; /* Menghapus shadow (opsional jika ada) */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1050;
+    background: colors.$smoky-black; /* Warna default */
+    transition: background 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+    &.scrolled {
+        background: rgba(0, 0, 0, 0.7); /* Transparan saat di-scroll */
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    }
 
     .nav-link {
         color: colors.$light-gray;
@@ -26,13 +35,15 @@
         }
     }
 
-    /* Media query untuk mobile */
-    @media (max-width: 768px) {
-        background: colors.$smoky-black; /* Ganti dengan background yang diinginkan di mobile */
+    .navbar-logo {
+        height: 140px;
+        transition: height 0.3s ease-in-out;
     }
-
-    /* Media query untuk desktop */
-    @media (min-width: 769px) {
-        background: transparent; /* Navbar tetap transparan di desktop */
+    
+    @media (max-width: 991px) { /* Bootstrap breakpoint for mobile */
+        .navbar-logo {
+            height: 60px;
+        }
     }
+    
 }
