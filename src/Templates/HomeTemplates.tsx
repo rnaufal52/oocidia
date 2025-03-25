@@ -5,8 +5,8 @@ import Footer from "Templates/HomeTemplates/Footer"
 import { Outlet } from "react-router-dom"
 import { Container } from "react-bootstrap"
 import useContentHeight from "Hooks/useContentHeight"
-import Carousele from "Pages/Home/Carousele"
-import ScrollToTop from "../Hooks/resetScroll.tsx";
+import HomeCarousel from "Components/HomeCarousel.tsx"
+import ScrollToTop from "Components/resetScroll.tsx";
 
 const HomeTemplates = () => {
     useContentHeight()
@@ -17,7 +17,8 @@ const HomeTemplates = () => {
         <Fragment>
             <ScrollToTop />
             <HomeNavbar />
-            {isBaseRoute && <Carousele />}
+            {isBaseRoute && <HomeCarousel />}
+            {/* <CustomCarousel /> */}
             <Container className="main-content">
                 <Outlet />
             </Container>

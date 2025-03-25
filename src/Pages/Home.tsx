@@ -1,9 +1,9 @@
-import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import {Col, Row, Image} from "react-bootstrap";
 import farmer from "assets/img/farmer.png";
 import scientist_calf from "assets/img/scientist_calf.png"
 import bulb from "assets/img/bulb.png"
+import ListMore from "Components/ListMore";
 
 
 const Home = () => {
@@ -12,6 +12,8 @@ const Home = () => {
             <Helmet>
                 <meta name="robots" content="index, follow" />
             </Helmet>
+
+            {/* our ground breaking work */}
             <section id="GrounbreakingWork" className="mt-10">
                 <Row lg={10} className="g-5 justify-content-center">
                     <Col lg={5}>
@@ -51,66 +53,27 @@ const Home = () => {
                 </Row>
             </section>
 
+            {/* List Pages Component */}
+            <ListMore
+                id="our-story"
+                title="Our Story"
+                text="At Oocidia, we are on a mission to revolutionize veterinary medicine by addressing some of the most neglected parasitic diseases affecting livestock and companion animals. Officially founded in 2023..."
+                link="/story-and-vision"
+                linkText="See More"
+                image={bulb}
+                imageAlt="Bulb"
+                imageStyle={{ transform: "scaleX(-1)" }}
+            />
 
-            <section id="our-story" className="mt-10">
-                    <Row lg={8} className="g-4 justify-content-center align-items-center">
-                        <Col lg={5}>
-                            <h2 className="text-blue-200">
-                                Our Story
-                            </h2>
-                            <p className="text-justify">
-                                At Oocidia, we are on a mission to revolutionize veterinary medicine by addressing some of
-                                the most neglected parasitic diseases affecting livestock and companion animals. Officially
-                                founded in 2023...
-                            </p>
-                            <Link
-                                to="/story-and-vision" state={{ resetScroll: true }}
-                                className="btn btn-outline-light rounded-pill hover-bg-blue-200 px-5 btn-our-groundbreaking-work d-inline-block animate__animated animate__fadeInUp"
-                                style={{ animationDelay: "800ms" }}
-                            >
-                                See More
-                            </Link>
-                        </Col>
-                        <Col lg={3}>
-                            <Image
-                                src={bulb}
-                                alt="bulb"
-                                className="w-100"
-                                style={{ transform: "scaleX(-1)", objectFit: "cover" }}
-                            />
-                        </Col>
-                    </Row>
-            </section>
-
-            <section id="our-story" className="mt-10 mb-10">
-                    <Row lg={8} className="g-4 justify-content-center align-items-center">
-                        <Col lg={5}>
-                            <h2 className="text-blue-200">
-                                Research and Innovation
-                            </h2>
-                            <p className="text-justify">
-                                At Oocidia, innovation is at the core of our mission. We are dedicated 
-                                to transforming veterinary medicine by addressing critical gaps in 
-                                the treatment of parasitic...
-                            </p>
-                            <Link
-                                to="/research-and-inovation" state={{ resetScroll: true }}
-                                className="btn btn-outline-light rounded-pill hover-bg-blue-200 px-5 btn-our-groundbreaking-work d-inline-block animate__animated animate__fadeInUp"
-                                style={{ animationDelay: "800ms" }}
-                            >
-                                See More
-                            </Link>
-                        </Col>
-                        <Col className="text-center text-lg-end h-100" lg={3}>
-                            <Image
-                                src={scientist_calf}
-                                alt="scientist_calf"
-                                className="w-100 h-100"
-                                style={{ objectFit: "cover" }}
-                            />
-                        </Col>
-                    </Row>
-            </section>
+            <ListMore
+                id="research-and-innovation"
+                title="Research and Innovation"
+                text="At Oocidia, innovation is at the core of our mission. We are dedicated to transforming veterinary medicine by addressing critical gaps in the treatment of parasitic..."
+                link="/research-and-innovation"
+                linkText="See More"
+                image={scientist_calf}
+                imageAlt="Scientist with Calf"
+            />
         </>
     );
 };

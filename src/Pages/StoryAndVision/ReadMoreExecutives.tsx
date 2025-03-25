@@ -1,11 +1,11 @@
-import { Col, Image, Modal, Row } from "react-bootstrap"
+import { Col, Image, Modal, Row } from "react-bootstrap";
 
 const ReadMoreExecutives = ({
     show,
     handleClose,
     data
 }: ReadMoreExecutivesI) => {
-    const { name, position, description, figure } = data
+    const { call_name, name, position, description, figure } = data;
 
     return (
         <Modal className="text-dark" show={show} onHide={handleClose} size="lg">
@@ -15,13 +15,13 @@ const ReadMoreExecutives = ({
                     <Col className="col-lg-5">
                         <Image
                             src={figure}
-                            alt="Employe"
+                            alt={name}
                             rounded
                             className="w-100"
                         />
                     </Col>
                     <Col>
-                        <h3>{name}</h3>
+                        <h3>{call_name ? call_name : name}</h3>
                         <p className="fs-sm">{position}</p>
                         <p className="text-justify">{description}</p>
                     </Col>
@@ -29,7 +29,7 @@ const ReadMoreExecutives = ({
             </Modal.Body>
             <Modal.Footer className="py-4" />
         </Modal>
-    )
-}
+    );
+};
 
-export default ReadMoreExecutives
+export default ReadMoreExecutives;
