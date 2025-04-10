@@ -1,35 +1,35 @@
 {
   "executives": [
     {
-      "call_name":"",
+      "call_name": "",
       "name": "Prof. Bruce Russell",
       "position": "Chief Executive Officer",
       "figure": "/oocidia/assets/pexels-olly-874158.jpg",
       "description": "Bruce Russell, co-founder and CEO of Oocidia, is a global authority in parasitic diseases with over 20 years of experience in drug development and applied research. During his tenure with the U.S. Walter Reed Army Institute and GSK, he played a pivotal role in developing tafenoquine (Krintafel), the first FDA-approved anti-relapse malaria drug in over 60 years. His expertise has led various governments to seek his counsel during disease outbreaks, recognizing his deep understanding of parasitic diseases and their management. Bruce has pioneered groundbreaking research in parasite biology and drug development, establishing advanced screening platforms and methodologies that are now instrumental to Oocidia's drug discovery process. His expertise in apicomplexan parasites, combined with his track record of successful drug commercialization and advisory experience with government bodies, positions him uniquely to lead Oocidia's mission of transforming veterinary medicine through innovative antiparasitic treatments."
     },
     {
-      "call_name":"",
+      "call_name": "",
       "name": "Dr. Bryan Yeung",
       "position": "Chief Medicinal Chemist",
       "figure": "/oocidia/assets/pexels-moose-photos-170195-1036623.jpg",
       "description": "Bryan Yeung, co-founder and Chief Medicinal Chemist of Oocidia, brings over 25 years of expertise in drug discovery and development. As former Associate Director at Novartis, he led groundbreaking research that resulted in the development of several breakthrough compounds. Bryan's extensive experience in medicinal chemistry spans roles at prestigious institutions including The Scripps Research Institute and Exelixis, where he successfully advanced multiple compounds from discovery to clinical development. His proven track record in building and managing international research teams, coupled with his deep expertise in antiparasitic drug development, positions him ideally to lead Oocidia's medicinal chemistry efforts in developing innovative veterinary therapeutics."
     },
     {
-      "call_name":"",
+      "call_name": "",
       "name": "Prof. Pablo Bifani",
       "position": "Chief Molecular Biologist",
       "figure": "/oocidia/assets/pexels-linkedin-2182970.jpg",
-      "description": "To be expanded."
+      "description": "With extensive experience at esteemed institutions like Pasteur Institute and Novartis, Pablo has made significant contributions to tuberculosis and malaria research, and he was also part of the core team that developed the drugs Telacebec (Q203) and Ganaplacide. Prior to this, Pablo co-developed a biomedical program which, being the leading-edge technology in that area of work during that time, was acquired by the US military. Currently holding joint appointments at the National University of Singapore, A*STAR and London School of Hygiene and Tropical Medicine, his work focuses on drug resistance mechanisms and the development of screening assays. Additionally, he is involved in bacteriophage diagnostics and therapy for rapid bacterial infection treatment, particularly in cases of antimicrobial resistance."
     },
     {
-      "call_name":"Rémy",
+      "call_name": "Rémy",
       "name": "Dr. M-Rémy Muhsin",
       "position": "Chief Cell Biologist",
       "figure": "/oocidia/assets/pexels-lii-chun-2055475500-30216629.jpg",
-      "description": "To be expanded."
+      "description": "Rémy, co-founder and Chief Cell Biologist at Oocidia, brings over a decade of research experience and a deep passion for biological sciences to the company. His diverse scientific background spans cancer, nanoparticles, immunology, and, especially, parasitology. Remy's expertise lies in the rigorous screening of novel anti-parasitic compounds, meticulously evaluating their efficacy and potential host toxicity. He has established a robust drug testing platform against cryptosporidiosis and other apicomplexan parasites in New Zealand and Australia. Beyond his scientific expertise, Rémy possesses a strong empathy for animal welfare, a value that is central to Oocidia's mission. His commitment to developing safe and effective treatments for parasitic diseases, combined with his dedication to ethical research practices, makes him a key leader in the field and a driving force behind Oocidia's innovative work."
     },
     {
-      "call_name":"",
+      "call_name": "",
       "name": "Eli Oliveiro",
       "position": "Managing Director",
       "figure": "/oocidia/assets/pexels-jeffreyreed-769733.jpg",
@@ -38,19 +38,19 @@
   ],
   "employees": [
     {
-      "call_name":"",
+      "call_name": "",
       "name": "Ryan Fernandez",
       "position": "Chief Administrative and Operating Officer"
     },
     {
-      "call_name":"",
+      "call_name": "",
       "name": "Denti Tantri ",
       "position": "Manager, Business Support Team and Country Manager, Indonesia"
     },
     {
-      "call_name":"",
+      "call_name": "",
       "name": "Dr Noi Suwanarusk",
-      "position": "Laboratory Manager"
+      "position": "Director of Laboratory Operations"
     }
   ]
 }

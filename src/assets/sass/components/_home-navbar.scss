@@ -1,49 +1,43 @@
-@use "../vars/colors";
+@use '../vars/colors';
 
 .home-navbar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1050;
-    background: colors.$smoky-black; /* Warna default */
-    transition: background 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1050;
+  background: colors.$smoky-black; /* Warna default */
+  transition: background 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 
-    &.scrolled {
-        background: rgba(0, 0, 0, 0.7); /* Transparan saat di-scroll */
-        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  .nav-link {
+    color: colors.$light-gray;
+    display: flex;
+    justify-content: end;
+
+    span {
+      display: block;
+      transition: 300ms;
     }
+  }
 
-    .nav-link {
-        color: colors.$light-gray;
-        display: flex;
-        justify-content: end;
+  a.nav-link:hover:not(.active) {
+    color: colors.$blue-200;
+    opacity: 1;
 
-        span {
-            display: block;
-            transition: 300ms;
-        }
+    span {
+      transform: translateX(-10px);
     }
+  }
 
-    a.nav-link:hover:not(.active) {
-        color: colors.$blue-200;
-        opacity: 1;
+  .navbar-logo {
+    height: 140px;
+    transition: height 0.3s ease-in-out;
+  }
 
-        span {
-            transform: translateX(-10px);
-        }
-    }
-
+  @media (max-width: 991px) {
+    /* Bootstrap breakpoint for mobile */
     .navbar-logo {
-        height: 140px;
-        transition: height 0.3s ease-in-out;
+      height: 60px;
     }
-    
-    @media (max-width: 991px) { /* Bootstrap breakpoint for mobile */
-        .navbar-logo {
-            height: 60px;
-        }
-    }
-    
+  }
 }

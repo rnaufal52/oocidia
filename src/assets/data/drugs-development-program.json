@@ -1,60 +1,60 @@
 {
-    "drugs-dev-program": [
-        {
-            "program": "Cryptosporidiosis",
-            "status": "Clinical",
-            "figure": "/oocidia/assets/pexels-pixabay-139398.jpg",
-            "summary": "/oocidia/assets/calf-sheep.png",
-            "description": "Cryptosporidiosis remains a significant challenge in animal health, with current treatments like halofuginone often causing toxicity and failing to provide a complete cure. At Oocidia, we have developed an innovative solution—a safe, effective, single-dose therapy designed to overcome these limitations. Our advanced formulation targets Cryptosporidium with precision and potency, ensuring rapid parasite clearance while minimizing side effects. By eliminating the need for prolonged treatment regimens, our breakthrough therapy enhances animal welfare, reduces labor costs, and supports sustainable veterinary practices. Oocidia is setting a new standard in Cryptosporidiosis treatment—safer, simpler, and more effective.",
-            "progress": 30
-        },
-        {
-            "program": "Coccidiosis",
-            "status": "Clinical",
-            "figure": "/oocidia/assets/pexels-cottonbro-3952236.jpg",
-            "summary": "/oocidia/assets/chicken.png",
-            "description": "Coccidiosis remains a persistent threat in animal health, with traditional treatments like ionophores and anticoccidials facing growing resistance issues. At Oocidia, we have developed a non-antibiotic solution with rapid action, providing a new approach to combat this disease effectively. Our innovative therapy targets coccidian parasites with precision and speed, eliminating the need for conventional antibiotics while reducing the risk of resistance. By offering a fast-acting and sustainable alternative, Oocidia’s solution enhances animal health, improves productivity, and supports responsible antimicrobial stewardship. Safer, faster, and resistance-free—this is the future of coccidiosis control.",
-            "progress": 30
-        },
-        {
-            "program": "Toxoplasmosis",
-            "status": "Clinical",
-            "figure": "/oocidia/assets/pexels-cottonbro-3952236.jpg",
-            "summary": "/oocidia/assets/cat.png",
-            "description": "Toxoplasmosis, a globally pervasive zoonosis caused by the obligate intracellular parasite Toxoplasma gondii, represents a significant public health and veterinary concern. The parasite's capacity for latent infection, characterized by the formation of tissue cysts, renders current therapeutic strategies, primarily relying on antifolate agents like pyrimethamine and sulfonamides, clinically inadequate. These agents primarily target tachyzoites only, thereby failing to effectively eradicate the bradyzoite-containing cysts responsible for chronic infection and potential reactivation. Oocidia's research addresses this unmet medical need by developing compounds with targeted parasiticidal activity against all life cycle stages of Toxoplasma gondii. Our approach focuses on achieving complete parasitic eradication through mechanisms that minimize host cell toxicity, thereby offering a superior therapeutic paradigm compared to existing treatments. This represents a significant advancement in the management of toxoplasmosis, moving beyond symptom suppression to definitive parasitic elimination.",
-            "progress": 30
-        },
-        {
-            "program": "Babesiosis",
-            "status": "Clinical",
-            "figure": "/oocidia/assets/babesiosis.jpg",
-            "summary": "/oocidia/assets/calf-sheep-horse.png",
-            "description": "Babesiosis, a devastating tick-borne disease, plagues ruminants worldwide, with cattle prevalence reaching a staggering 29%. Unlike theileriosis, it exclusively ravages red blood cells, inducing severe anemia, fever, and even death, with mortality rates persisting at 5-10% despite conventional treatments. Current therapies, like imidocarb, are plagued by toxicity and limited efficacy, particularly against resistant Babesia strains. This unstable disease landscape, marked by evolving epidemiology and emerging resistance, demands a revolutionary approach. Occidia rises to this challenge, offering a superior alternative to traditional treatments. Our next-generation therapy, unlike imidocarb, boasts minimal toxicity and eliminates the need for withdrawal periods. This breakthrough translates to unparalleled safety and efficacy, ensuring swift parasite clearance and improved animal well-being. Occidia's advanced formulation seamlessly integrates into livestock management, minimizing disruptions and maximizing productivity. We offer a safe, reliable, and impactful solution, setting a new standard in babesiosis treatment and safeguarding your livestock's health.",
-            "progress": 30
-        },
-        {
-            "program": "Theileriosis",
-            "status": "Clinical",
-            "figure": "/oocidia/assets/pexels-chokniti-khongchum-1197604-3938022.jpg",
-            "summary": "/oocidia/assets/calf.png",
-            "description": "Bovine theileriosis, a tick-borne parasitic disease, inflicts devastating economic losses globally, with mortality rates soaring up to 100% in susceptible animals. Current treatments, relying on palliative care and limited-efficacy drugs like buparvaquone, fail to address the root cause, leaving veterinarians grappling with unpredictable disease progression. High costs and accessibility issues further compound the problem, especially in resource-limited regions where the disease is rampant. Oocidia offers a revolutionary solution. Unlike conventional approaches, Oocidia's precisely engineered treatment directly targets and eliminates Theileria parasites, achieving definitive resolution, not mere symptom control. This breakthrough transcends the limitations of existing therapies, offering a path to complete eradication rather than mere management. Oocidia's approach directly combats the core issue, offering a significantly more effective and impactful solution. By providing a targeted, efficient, and potentially more accessible treatment, Oocidia is poised to transform the landscape of theileriosis management, mitigating substantial economic losses and improving animal welfare.",
-            "progress": 30
-        },
-        {
-            "program": "Piroplasmosis",
-            "status": "Clinical",
-            "figure": "/oocidia/assets/pexels-chokniti-khongchum-1197604-3938022.jpg",
-            "summary": "/oocidia/assets/horse.png",
-            "description": "Equine piroplasmosis (EP), a global tick-borne disease, poses a severe threat to equine populations, with mortality rates reaching 50% in susceptible groups. Caused by Theileria equi, Babesia caballi, and Theileria haneyi, EP has far-reaching consequences beyond animal health, including trade restrictions and disruptions to international competitions, resulting in annual losses of hundreds of millions for the equine industry. Current treatments, primarily imidocarb dipropionate, are limited by significant side effects and often fail to completely eliminate the parasites. This treatment gap underscores the urgent need for safer, more effective solutions. Oocidia offers a revolutionary approach to address this challenge. Our precisely engineered therapy targets Apicomplexan parasites, ensuring complete eradication with a superior safety profile. Unlike existing options, Oocidia’s treatment aims for complete parasite clearance, eliminating the carrier state and restoring international movement eligibility. This innovative approach addresses the limitations of current therapies, promising to maximize the well-being and performance of affected equines. By providing a safe, effective, and complete solution, Oocidia stands as the premier choice in combating equine piroplasmosis, offering a future where horses can thrive without the burden of this debilitating disease.",
-            "progress": 30
-        },
-        {
-            "program": "Cystoisosporiasis",
-            "status": "Clinical",
-            "figure": "/oocidia/assets/pexels-chokniti-khongchum-1197604-3938022.jpg",
-            "summary": "/oocidia/assets/cat-dog.png",
-            "description": "Cystoisosporiasis, a parasitic disease affecting young dogs and cats, poses a significant threat, particularly in high-density environments. With prevalence rates reaching 38% in juveniles, the disease manifests as severe diarrhea, dehydration, and potentially fatal outcomes. Current treatments, limited to sulfadimethoxine and off-label drugs, suffer from limited efficacy, incomplete parasite elimination, and emerging resistance. This narrow therapeutic range underscores the urgent need for innovative solutions, especially for vulnerable populations in shelters and breeding facilities. Oocidia offers a transformative approach to combat Cystoisosporiasis. Unlike existing therapies that often result in persistent subclinical infections and clinical relapse, Oocidia's targeted formulations achieve complete parasitic eradication. Our approach directly attacks the parasites, minimizing off-target toxicity and ensuring a superior safety profile. This paradigm shift from symptom management to definitive parasite elimination provides a robust and effective solution. By addressing the critical limitations of current treatments, Oocidia offers a path to complete recovery, minimizing morbidity and improving the well-being of affected animals.",
-            "progress": 30
-        }
-    ]
+  "drugs-dev-program": [
+    {
+      "program": "Cryptosporidiosis",
+      "status": "Clinical",
+      "figure": "/oocidia/assets/Table-1crypto.jpeg",
+      "summary": "/oocidia/assets/sheep-cow.png",
+      "description": "Cryptosporidiosis remains a significant challenge in animal health, with current treatments like halofuginone often causing toxicity and failing to provide a complete cure. At Oocidia, we have developed an innovative solution—a safe, effective, single-dose therapy designed to overcome these limitations. Our advanced formulation targets Cryptosporidium with precision and potency, ensuring rapid parasite clearance while minimizing side effects. By eliminating the need for prolonged treatment regimens, our breakthrough therapy enhances animal welfare, reduces labor costs, and supports sustainable veterinary practices. Oocidia is setting a new standard in Cryptosporidiosis treatment—safer, simpler, and more effective.",
+      "progress": 30
+    },
+    {
+      "program": "Coccidiosis",
+      "status": "Clinical",
+      "figure": "/oocidia/assets/Table-2cocci.jpg",
+      "summary": "/oocidia/assets/chicken.png",
+      "description": "Coccidiosis remains a persistent threat in animal health, with traditional treatments like ionophores and anticoccidials facing growing resistance issues. At Oocidia, we have developed a non-antibiotic solution with rapid action, providing a new approach to combat this disease effectively. Our innovative therapy targets coccidian parasites with precision and speed, eliminating the need for conventional antibiotics while reducing the risk of resistance. By offering a fast-acting and sustainable alternative, Oocidia’s solution enhances animal health, improves productivity, and supports responsible antimicrobial stewardship. Safer, faster, and resistance-free—this is the future of coccidiosis control.",
+      "progress": 30
+    },
+    {
+      "program": "Toxoplasmosis",
+      "status": "Clinical",
+      "figure": "/oocidia/assets/Table-3toxo.jpeg",
+      "summary": "/oocidia/assets/cat.png",
+      "description": "Toxoplasmosis, a globally pervasive zoonosis caused by the obligate intracellular parasite Toxoplasma gondii, represents a significant public health and veterinary concern. The parasite's capacity for latent infection, characterized by the formation of tissue cysts, renders current therapeutic strategies, primarily relying on antifolate agents like pyrimethamine and sulfonamides, clinically inadequate. These agents primarily target tachyzoites only, thereby failing to effectively eradicate the bradyzoite-containing cysts responsible for chronic infection and potential reactivation. Oocidia's research addresses this unmet medical need by developing compounds with targeted parasiticidal activity against all life cycle stages of Toxoplasma gondii. Our approach focuses on achieving complete parasitic eradication through mechanisms that minimize host cell toxicity, thereby offering a superior therapeutic paradigm compared to existing treatments. This represents a significant advancement in the management of toxoplasmosis, moving beyond symptom suppression to definitive parasitic elimination.",
+      "progress": 30
+    },
+    {
+      "program": "Babesiosis",
+      "status": "Clinical",
+      "figure": "/oocidia/assets/babesiosis.jpg",
+      "summary": "/oocidia/assets/sheep-cow-horse.png",
+      "description": "Babesiosis, a devastating tick-borne disease, plagues ruminants worldwide, with cattle prevalence reaching a staggering 29%. Unlike theileriosis, it exclusively ravages red blood cells, inducing severe anemia, fever, and even death, with mortality rates persisting at 5-10% despite conventional treatments. Current therapies, like imidocarb, are plagued by toxicity and limited efficacy, particularly against resistant Babesia strains. This unstable disease landscape, marked by evolving epidemiology and emerging resistance, demands a revolutionary approach. Occidia rises to this challenge, offering a superior alternative to traditional treatments. Our next-generation therapy, unlike imidocarb, boasts minimal toxicity and eliminates the need for withdrawal periods. This breakthrough translates to unparalleled safety and efficacy, ensuring swift parasite clearance and improved animal well-being. Occidia's advanced formulation seamlessly integrates into livestock management, minimizing disruptions and maximizing productivity. We offer a safe, reliable, and impactful solution, setting a new standard in babesiosis treatment and safeguarding your livestock's health.",
+      "progress": 30
+    },
+    {
+      "program": "Theileriosis",
+      "status": "Clinical",
+      "figure": "/oocidia/assets/Table-5Thei.jpg",
+      "summary": "/oocidia/assets/cow.png",
+      "description": "Bovine theileriosis, a tick-borne parasitic disease, inflicts devastating economic losses globally, with mortality rates soaring up to 100% in susceptible animals. Current treatments, relying on palliative care and limited-efficacy drugs like buparvaquone, fail to address the root cause, leaving veterinarians grappling with unpredictable disease progression. High costs and accessibility issues further compound the problem, especially in resource-limited regions where the disease is rampant. Oocidia offers a revolutionary solution. Unlike conventional approaches, Oocidia's precisely engineered treatment directly targets and eliminates Theileria parasites, achieving definitive resolution, not mere symptom control. This breakthrough transcends the limitations of existing therapies, offering a path to complete eradication rather than mere management. Oocidia's approach directly combats the core issue, offering a significantly more effective and impactful solution. By providing a targeted, efficient, and potentially more accessible treatment, Oocidia is poised to transform the landscape of theileriosis management, mitigating substantial economic losses and improving animal welfare.",
+      "progress": 30
+    },
+    {
+      "program": "Piroplasmosis",
+      "status": "Clinical",
+      "figure": "/oocidia/assets/Table-6Piro.jpeg",
+      "summary": "/oocidia/assets/horse.png",
+      "description": "Equine piroplasmosis (EP), a global tick-borne disease, poses a severe threat to equine populations, with mortality rates reaching 50% in susceptible groups. Caused by Theileria equi, Babesia caballi, and Theileria haneyi, EP has far-reaching consequences beyond animal health, including trade restrictions and disruptions to international competitions, resulting in annual losses of hundreds of millions for the equine industry. Current treatments, primarily imidocarb dipropionate, are limited by significant side effects and often fail to completely eliminate the parasites. This treatment gap underscores the urgent need for safer, more effective solutions. Oocidia offers a revolutionary approach to address this challenge. Our precisely engineered therapy targets Apicomplexan parasites, ensuring complete eradication with a superior safety profile. Unlike existing options, Oocidia’s treatment aims for complete parasite clearance, eliminating the carrier state and restoring international movement eligibility. This innovative approach addresses the limitations of current therapies, promising to maximize the well-being and performance of affected equines. By providing a safe, effective, and complete solution, Oocidia stands as the premier choice in combating equine piroplasmosis, offering a future where horses can thrive without the burden of this debilitating disease.",
+      "progress": 30
+    },
+    {
+      "program": "Cystoisosporiasis",
+      "status": "Clinical",
+      "figure": "/oocidia/assets/Table-7cyst.jpeg",
+      "summary": "/oocidia/assets/cat-dog.png",
+      "description": "Cystoisosporiasis, a parasitic disease affecting young dogs and cats, poses a significant threat, particularly in high-density environments. With prevalence rates reaching 38% in juveniles, the disease manifests as severe diarrhea, dehydration, and potentially fatal outcomes. Current treatments, limited to sulfadimethoxine and off-label drugs, suffer from limited efficacy, incomplete parasite elimination, and emerging resistance. This narrow therapeutic range underscores the urgent need for innovative solutions, especially for vulnerable populations in shelters and breeding facilities. Oocidia offers a transformative approach to combat Cystoisosporiasis. Unlike existing therapies that often result in persistent subclinical infections and clinical relapse, Oocidia's targeted formulations achieve complete parasitic eradication. Our approach directly attacks the parasites, minimizing off-target toxicity and ensuring a superior safety profile. This paradigm shift from symptom management to definitive parasite elimination provides a robust and effective solution. By addressing the critical limitations of current treatments, Oocidia offers a path to complete recovery, minimizing morbidity and improving the well-being of affected animals.",
+      "progress": 30
+    }
+  ]
 }
